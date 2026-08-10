@@ -43,9 +43,18 @@ technology and communication.
 
 <br />
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=esrakadah&show_icons=true&hide_title=true&theme=default" alt="Esra's GitHub stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=esrakadah&theme=default" alt="Esra's GitHub streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=esrakadah&theme=default" alt="Esra's GitHub streak" />
 </p>
+
+<!--
+  A second card (github-readme-stats.vercel.app) showing language/star/PR
+  breakdown belongs here too, but that specific public instance is currently
+  returning 503 DEPLOYMENT_PAUSED (a known, recurring outage on the shared
+  free Vercel deployment, unrelated to this repo). Re-add once it's back:
+  <img src="https://github-readme-stats.vercel.app/api?username=esrakadah&show_icons=true&hide_title=true&theme=default" alt="Esra's GitHub stats" />
+  or switch to a self-hosted instance for a permanent fix.
+-->
+
 
 ## My work
 
