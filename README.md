@@ -67,10 +67,10 @@ technology and communication.
 | [**FCAIC #4 — Agentic Apps Hands-On (with a UX Twist!)**](https://medium.com/@esrakadah/fcaic-4-agentic-apps-hands-on-with-a-ux-twist-fbc72cbf6859) | 📝 |
 | [**Flutter x AI from Google I/O Connect Berlin**](https://medium.com/@esrakadah/memories-and-updates-covering-flutter-x-ai-from-google-i-o-connect-berlin-2025-b82b137e1933) | 📝 |
 | [**Flutter Community AI Circle (FCAIC) — full playlist**](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3) | 🎥 |
-| **AI in Flutter Development: What's Actually Useful?** — next.app devCon (FlutterCon Berlin) | 🎤 |
-| **Flutter Vibes Only: Vibe-Coding Workshop** — FlutterCon EU 2025 (co-led) | 🎤 |
-| **From Touch To Code: Gestures and Beyond** — FlutterCon EU 2024 | 🎤 |
-| **Flutter at Native Speed: The FFI and Platform Channels Way** — Sessionize | 🎤 |
+| **AI in Flutter Development: What's Actually Useful?** — FlutterCon EU, Berlin (roundtable) | 🎤 |
+| [**Flutter Vibes Only: Vibe-Coding Workshop Series & Groundbreaker Mentorship**](https://www.youtube.com/watch?v=GiqqJdZaqPk) — FlutterCon EU 2025, co-led with Ivanna Kaceviča | 🎤 |
+| [**From Touch To Code: Gestures and Beyond**](https://www.droidcon.com/2024/09/03/from-touch-to-code-gestures-and-beyond/) — FlutterCon Berlin 2024 | 🎤 |
+| [**Flutter at Native Speed & On-Device AI**](https://devfest-berlin-2025.sessionize.com/schedule) — DevFest speaking tour: Berlin, Kocaeli, Istanbul, Edirne, Konya (Konya delivered in Turkish) | 🎤 |
 
 Full talk list and recordings: [Sessionize profile](https://sessionize.com/esrakadah).
 
