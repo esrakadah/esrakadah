@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Welcome" src="https://readme-typing-svg.herokuapp.com?size=28&center=true&vCenter=true&width=500&lines=%F0%9F%91%8B+Hi%2C+I'm+Esra;Flutter+%2B+AI+Engineer;GDE+%F0%9F%92%99+Author+%F0%9F%93%96+Speaker+%F0%9F%8E%A4" />
+  <img alt="Welcome" src="https://readme-typing-svg.herokuapp.com?size=28&center=true&vCenter=true&width=500&color=B76E79&lines=%F0%9F%91%8B+Hi%2C+I'm+Esra;Flutter+%2B+AI+Engineer;GDE+%F0%9F%92%99+Author+%F0%9F%93%96+Speaker+%F0%9F%8E%A4" />
   <br />
   <img src="https://hits.dwyl.com/esrakadah/esrakadah.svg?style=flat-square&show=unique" alt="profile views" />
 </p>
@@ -10,8 +10,8 @@ community co-organizer, based in Berlin.
 I specialize in Flutter development, UI/UX design, and community engagement.
 With several years of development experience and years building tech
 communities, I focus on writing clean, maintainable code and sharing
-knowledge. Currently, I'm a Senior App Developer at **Antigua Mobile GmbH**,
-and I co-organize **TheFlutteristas**, **Flutter Berlin**, and the
+knowledge. Currently, I'm a Senior App Developer at **Antigua Mobile**,
+and I co-organize **Flutteristas**, **Flutter Berlin**, and the
 **Flutter Community AI Circle (FCAIC)** — aiming to inspire people through
 technology and communication.
 
@@ -22,6 +22,15 @@ technology and communication.
 * 🌱 Currently exploring: agentic AI workflows in developer tooling
 * 💬 Ask me about Flutter, Gemini/Vertex AI integrations, or building tech communities
 * 📫 How to reach me: links below
+
+## Tech I work with
+
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
+[![Google Developer Expert](https://img.shields.io/badge/Google%20Developer%20Expert-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/community/experts)
+[![Google AI Studio](https://img.shields.io/badge/Google%20AI%20Studio-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://aistudio.google.com)
+[![Gemini API](https://img.shields.io/badge/Gemini%20API-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/gemini-api)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 
 ## Find me elsewhere
 
