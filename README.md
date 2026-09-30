@@ -53,6 +53,7 @@ technology and communication.
 [![AI Studio app](https://img.shields.io/badge/AI%20Studio%20app-esrakadah.ai.studio-000000?style=for-the-badge&logo=googlegemini&logoColor=white)](https://esrakadah.ai.studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/esrakadah)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/esrakadah)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/esratech.bsky.social)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/esratech)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@esrakadah)
 [![Sessionize](https://img.shields.io/badge/Sessionize-1AB394?style=for-the-badge&logo=googlemeet&logoColor=white)](https://sessionize.com/esrakadah)
