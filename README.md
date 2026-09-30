@@ -4,13 +4,13 @@
   <img src="https://hits.dwyl.com/esrakadah/esrakadah.svg?style=flat-square&show=unique" alt="profile views" />
 </p>
 
-Google Developer Expert (Flutter & Dart), Senior Flutter Engineer, author, and
+Google Developer Expert (Flutter & Dart), Senior Flutter & AI Engineer, author, and
 community co-organizer, based in Berlin.
 
 I specialize in Flutter development, UI/UX design, and community engagement.
 With several years of development experience and years building tech
 communities, I focus on writing clean, maintainable code and sharing
-knowledge. Currently, I'm a Senior App Developer at **Antigua Mobile**,
+knowledge. Currently, I'm a Senior Flutter & AI Engineer at **Antigua Mobile**,
 and I co-organize **Flutteristas**, **Flutter Berlin**, and the
 **Flutter Community AI Circle (FCAIC)** - aiming to inspire people through
 technology and communication.
@@ -19,9 +19,23 @@ technology and communication.
   - Automated Flutter UI testing with Patrol + MCP - see [my work](#my-work) 👇
   - Flutter × Gemini integrations
   - Talks and workshops on Flutter and AI
+  - DevFest Berlin 2026: co-organizing, and building the website
 * 🌱 Currently exploring: building smarter developer tools
+* 🛒 E-commerce too: I built the order and stock tooling for a Shopify and Amazon store (Apimaye USA): a Flutter web admin on Firebase, Node.js integrations with the ShipStation and 3PL APIs, and a FedEx shipment-watch Slack bot
+* 🗂️ Portfolio: [esratech.com](https://esratech.com), plus my Google AI Studio app at [esrakadah.ai.studio](https://esrakadah.ai.studio)
 * 💬 Ask me about Flutter, Gemini/Vertex AI integrations, or building tech communities
 * 📫 How to reach me: links below
+
+[![Currently in Berlin, Germany](https://img.shields.io/badge/Currently%20in-Berlin%2C%20Germany-B76E79?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Berlin)
+
+## 🗓️ Upcoming events
+
+| Event | Where | When | Role | Type |
+| --- | --- | --- | --- | :---: |
+| [**next.app devCon / FlutterCon EU**](https://www.nextappcon.com/) | Berlin, Germany | 7-9 Oct 2026 | Roundtable "AI in Flutter Development: What's Actually Useful?" and the Flutter booth | 🎤 |
+| [**DevFest Berlin 2026**](https://2026.devfest-berlin.de) | SRH Berlin, Germany | 14 Nov 2026 | Co-organizer with Flutter Berlin | 🌍 |
+| **DevFest Gaziantep** | Gaziantep, Türkiye | 15 Nov 2026 | Speaker, slot to be confirmed | 🎤 |
+| **DevFest Adana** | Adana, Türkiye | 11 Dec 2026 | Speaker, main hall | 🎤 |
 
 ## Tech I work with
 
@@ -31,10 +45,12 @@ technology and communication.
 [![Google AI Studio](https://img.shields.io/badge/Google%20AI%20Studio-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://aistudio.google.com)
 [![Gemini API](https://img.shields.io/badge/Gemini%20API-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white)](https://ai.google.dev/gemini-api)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)](https://shopify.dev)
 
 ## Find me elsewhere
 
-[![Website](https://img.shields.io/badge/esrakadah.ai.studio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://esrakadah.ai.studio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-esratech.com-B76E79?style=for-the-badge&logo=googlechrome&logoColor=white)](https://esratech.com)
+[![AI Studio app](https://img.shields.io/badge/AI%20Studio%20app-esrakadah.ai.studio-000000?style=for-the-badge&logo=googlegemini&logoColor=white)](https://esrakadah.ai.studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/esrakadah)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/esrakadah)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/esratech)
