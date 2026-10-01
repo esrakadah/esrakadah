@@ -28,6 +28,34 @@ technology and communication.
 
 [![Currently in Berlin, Germany](https://img.shields.io/badge/Currently%20in-Berlin%2C%20Germany-B76E79?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Berlin)
 
+## ✨ Featured
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <a href="https://esratech.com/fcaic"><img src="https://i.ytimg.com/vi/7iB8U8nKyDI/maxresdefault.jpg" alt="Flutter Community AI Circle, episode 29" height="120" /></a>
+      <br />
+      <a href="https://esratech.com/fcaic"><b>Flutter Community AI Circle</b></a>
+      <br />
+      Bi-weekly Flutter × AI livestream I co-founded and lead. 29 episodes since May 2025.
+    </td>
+    <td align="center" valign="top" width="33%">
+      <a href="https://2026.devfest-berlin.de/"><img src="https://2026.devfest-berlin.de/assets/images/devfest-cover-og.png" alt="DevFest Berlin 2026 skyline" height="120" /></a>
+      <br />
+      <a href="https://2026.devfest-berlin.de/"><b>DevFest Berlin 2026</b></a>
+      <br />
+      14 Nov, SRH Berlin. Co-organizing, and building the website.
+    </td>
+    <td align="center" valign="top" width="33%">
+      <a href="https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices"><img src="https://content.packt.com/B17121/cover_image_small.jpg" alt="Flutter Design Patterns and Best Practices book cover" height="120" /></a>
+      <br />
+      <a href="https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices"><b>Flutter Design Patterns and Best Practices</b></a>
+      <br />
+      My book with Packt, co-authored with Daria Orlova and Jaime Blasco.
+    </td>
+  </tr>
+</table>
+
 ## 🗓️ Upcoming events
 
 | Event | Where | When | Role | Type |
