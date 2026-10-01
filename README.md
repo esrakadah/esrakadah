@@ -19,7 +19,7 @@ technology and communication.
   - Automated Flutter UI testing with Patrol + MCP - see [my work](#my-work) 👇
   - Flutter × Gemini integrations
   - Talks and workshops on Flutter and AI
-  - DevFest Berlin 2026: co-organizing, and building the website
+  - [DevFest Berlin 2026](https://2026.devfest-berlin.de/): co-organizing, and building the website
 * 🌱 Currently exploring: building smarter developer tools
 * 🛒 E-commerce too: I built the order and stock tooling for a Shopify and Amazon store (Apimaye USA): a Flutter web admin on Firebase, Node.js integrations with the ShipStation and 3PL APIs, and a FedEx shipment-watch Slack bot
 * 🗂️ Portfolio: [esratech.com](https://esratech.com), and every FCAIC episode at [esratech.com/fcaic](https://esratech.com/fcaic)
@@ -34,7 +34,7 @@ technology and communication.
 | --- | --- | --- | --- | :---: |
 | [**next.app devCon / FlutterCon EU**](https://www.nextappcon.com/) | 📍 Berlin, Germany 🇩🇪 | 7-9 Oct 2026 | Roundtable "Is Flutter a Smart Bet in an AI-Driven Job Market?" with Ivanna Kaceviča (7 Oct), and the Flutter booth | 🎤 |
 | [**DevFest Atyrau 2026: From Build to Scale**](https://gdg.community.dev/events/details/google-gdg-atyrau-presents-devfest-atyrau-2026-from-build-to-scale/) | 📍 Atyrau, Kazakhstan 🇰🇿 | 11 Nov 2026 | Speaker, "SoundStage: She Will Be Loved (by Flutter)", to be confirmed | 🎤 |
-| [**DevFest Berlin 2026**](https://2026.devfest-berlin.de) | 📍 SRH Berlin, Germany 🇩🇪 | 14 Nov 2026 | Co-organizer and website contributor | 🌍 |
+| [**DevFest Berlin 2026**](https://2026.devfest-berlin.de/) | 📍 SRH Berlin, Germany 🇩🇪 | 14 Nov 2026 | Co-organizer and website contributor | 🌍 |
 | **DevFest Gaziantep** | 📍 Gaziantep, Türkiye 🇹🇷 | 15 Nov 2026 | Speaker, slot to be confirmed | 🎤 |
 | **DevFest Adana** | 📍 Adana, Türkiye 🇹🇷 | 11 Dec 2026 | Speaker, main hall | 🎤 |
 
@@ -83,6 +83,7 @@ technology and communication.
 | [**patrol-mcp-guide**](https://github.com/esrakadah/patrol-mcp-guide) - AI-driven Flutter UI testing with Patrol & MCP | 💻 |
 | [**flutter_voice_bridge**](https://github.com/esrakadah/flutter_voice_bridge) - native platform integration (FFI, Platform Channels) + offline AI transcription | 💻 |
 | [**esra-whisper-recorder**](https://github.com/esrakadah/esra-whisper-recorder) - offline CLI voice recorder & transcriber | 💻 |
+| [**DevFest Berlin 2026 website**](https://2026.devfest-berlin.de/) - the event site I build for DevFest Berlin, Eleventy + Nunjucks ([source](https://github.com/devfest-berlin/2026.devfest.berlin)) | 💻 |
 
 ### 📝 Writing
 
