@@ -22,7 +22,7 @@ technology and communication.
   - DevFest Berlin 2026: co-organizing, and building the website
 * 🌱 Currently exploring: building smarter developer tools
 * 🛒 E-commerce too: I built the order and stock tooling for a Shopify and Amazon store (Apimaye USA): a Flutter web admin on Firebase, Node.js integrations with the ShipStation and 3PL APIs, and a FedEx shipment-watch Slack bot
-* 🗂️ Portfolio: [esratech.com](https://esratech.com), plus my Google AI Studio app at [esrakadah.ai.studio](https://esrakadah.ai.studio)
+* 🗂️ Portfolio: [esratech.com](https://esratech.com), and every FCAIC episode at [esratech.com/fcaic](https://esratech.com/fcaic)
 * 💬 Ask me about Flutter, Gemini/Vertex AI integrations, or building tech communities
 * 📫 How to reach me: links below
 
@@ -32,10 +32,11 @@ technology and communication.
 
 | Event | Where | When | Role | Type |
 | --- | --- | --- | --- | :---: |
-| [**next.app devCon / FlutterCon EU**](https://www.nextappcon.com/) | Berlin, Germany | 7-9 Oct 2026 | Roundtable "AI in Flutter Development: What's Actually Useful?" and the Flutter booth | 🎤 |
-| [**DevFest Berlin 2026**](https://2026.devfest-berlin.de) | SRH Berlin, Germany | 14 Nov 2026 | Co-organizer with Flutter Berlin | 🌍 |
-| **DevFest Gaziantep** | Gaziantep, Türkiye | 15 Nov 2026 | Speaker, slot to be confirmed | 🎤 |
-| **DevFest Adana** | Adana, Türkiye | 11 Dec 2026 | Speaker, main hall | 🎤 |
+| [**next.app devCon / FlutterCon EU**](https://www.nextappcon.com/) | 📍 Berlin, Germany 🇩🇪 | 7-9 Oct 2026 | Roundtable "Is Flutter a Smart Bet in an AI-Driven Job Market?" with Ivanna Kaceviča (7 Oct), and the Flutter booth | 🎤 |
+| [**DevFest Atyrau 2026: From Build to Scale**](https://gdg.community.dev/events/details/google-gdg-atyrau-presents-devfest-atyrau-2026-from-build-to-scale/) | 📍 Atyrau, Kazakhstan 🇰🇿 | 11 Nov 2026 | Speaker, "SoundStage: She Will Be Loved (by Flutter)", to be confirmed | 🎤 |
+| [**DevFest Berlin 2026**](https://2026.devfest-berlin.de) | 📍 SRH Berlin, Germany 🇩🇪 | 14 Nov 2026 | Co-organizer and website contributor | 🌍 |
+| **DevFest Gaziantep** | 📍 Gaziantep, Türkiye 🇹🇷 | 15 Nov 2026 | Speaker, slot to be confirmed | 🎤 |
+| **DevFest Adana** | 📍 Adana, Türkiye 🇹🇷 | 11 Dec 2026 | Speaker, main hall | 🎤 |
 
 ## Tech I work with
 
@@ -50,9 +51,8 @@ technology and communication.
 ## Find me elsewhere
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-esratech.com-B76E79?style=for-the-badge&logo=googlechrome&logoColor=white)](https://esratech.com)
-[![AI Studio app](https://img.shields.io/badge/AI%20Studio%20app-esrakadah.ai.studio-000000?style=for-the-badge&logo=googlegemini&logoColor=white)](https://esrakadah.ai.studio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/esrakadah)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/esrakadah)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/esratech)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/esratech)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/esratech.bsky.social)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/esratech)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@esrakadah)
@@ -97,7 +97,8 @@ technology and communication.
 
 | Title | Type |
 | --- | :---: |
-| [**Flutter Community AI Circle (FCAIC) - full playlist**](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3) - co-founded and lead this bi-weekly Flutter × AI series, 26 episodes | 🎥 |
+| [**Flutter Community AI Circle (FCAIC) - every episode**](https://esratech.com/fcaic) - co-founded and lead this bi-weekly Flutter × AI series, 29 episodes since May 2025 ([YouTube playlist](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)) | 🎥 |
+| [**FCAIC #29 - Stakeholder-Ready Prototypes & Video Editor in Flutter**](https://www.youtube.com/watch?v=7iB8U8nKyDI) - latest episode, 22 Sep 2026 | 🎥 |
 | [**FCAIC #1 - Welcome to AI in Flutter**](https://www.youtube.com/watch?v=Gub1DY8ScwU) - series launch | 🎥 |
 | [**Vibe Coding with Norbert**](https://www.youtube.com/watch?v=S01tPLxQiU4) - livestream series building a roguelike deck-builder with AI, CI/CD per commit | 🎥 |
 
