@@ -1,16 +1,16 @@
 <p align="center">
-  <img alt="Welcome" src="https://readme-typing-svg.herokuapp.com?size=28&center=true&vCenter=true&width=500&color=B76E79&lines=%F0%9F%91%8B+Hi%2C+I'm+Esra;Flutter+%2B+AI+Engineer;GDE+%F0%9F%92%99+Author+%F0%9F%93%96+Speaker+%F0%9F%8E%A4" />
+  <img alt="Welcome" src="https://readme-typing-svg.herokuapp.com?size=28&center=true&vCenter=true&width=600&color=B76E79&lines=%F0%9F%91%8B+Hi%2C+I'm+Esra;Tech+Lead+%26+Senior+Flutter+Engineer;GDE+%F0%9F%92%99+Author+%F0%9F%93%96+Speaker+%F0%9F%8E%A4" />
   <br />
   <img src="https://hits.dwyl.com/esrakadah/esrakadah.svg?style=flat-square&show=unique" alt="profile views" />
 </p>
 
-Google Developer Expert (Flutter & Dart), Senior Flutter & AI Engineer, author, and
+Google Developer Expert (Flutter & Dart), Tech Lead & Senior Flutter Engineer, author, and
 community co-organizer, based in Berlin.
 
 I specialize in Flutter development, UI/UX design, and community engagement.
 With several years of development experience and years building tech
 communities, I focus on writing clean, maintainable code and sharing
-knowledge. Currently, I'm a Senior Flutter & AI Engineer at **Antigua Mobile**,
+knowledge. Currently, I'm Tech Lead & Senior Flutter Engineer at **Antigua Mobile**,
 and I co-organize **Flutteristas**, **Flutter Berlin**, and the
 **Flutter Community AI Circle (FCAIC)** - aiming to inspire people through
 technology and communication.
@@ -55,6 +55,16 @@ technology and communication.
     </td>
   </tr>
 </table>
+
+## 📸 On stage
+
+<p align="center">
+  <a href="https://esratech.com"><img src="assets/stage/flutter-berlin-meetup-2026.webp" alt="Esra on stage with a microphone at the Flutter Berlin Meetup, 2026" height="160" /></a>
+  <a href="https://esratech.com"><img src="assets/stage/google-io-2025.webp" alt="Esra in front of the main stage at Google I/O 2025" height="160" /></a>
+  <a href="https://esratech.com"><img src="assets/stage/devfest-women-2022.webp" alt="Esra presenting a Flutter app on the big screen at DevFest Women 2022" height="160" /></a>
+  <br />
+  <sub>Flutter Berlin Meetup 2026 · Google I/O 2025 · DevFest Women 2022</sub>
+</p>
 
 ## 🗓️ Upcoming events
 
@@ -108,6 +118,7 @@ technology and communication.
 | Title | Type |
 | --- | :---: |
 | [**Flutter Design Patterns and Best Practices**](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices) - book, Packt, co-authored with Daria Orlova and Jaime Blasco, #1 bestseller in category | 📚 |
+| [**modemoiselle**](https://modemoiselle.web.app) - Flutter + Gemini wardrobe app for organizing your closet and putting outfits together (live app, source private) | 💻 |
 | [**patrol-mcp-guide**](https://github.com/esrakadah/patrol-mcp-guide) - AI-driven Flutter UI testing with Patrol & MCP | 💻 |
 | [**flutter_voice_bridge**](https://github.com/esrakadah/flutter_voice_bridge) - native platform integration (FFI, Platform Channels) + offline AI transcription | 💻 |
 | [**esra-whisper-recorder**](https://github.com/esrakadah/esra-whisper-recorder) - offline CLI voice recorder & transcriber | 💻 |
