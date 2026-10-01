@@ -1,4 +1,4 @@
-**Senior Flutter & AI Engineer** at [Antigua Mobile](https://github.com/antigua-mobile), Berlin<br>
+**Tech Lead, Senior Flutter & AI Engineer** at [Antigua Mobile](https://github.com/antigua-mobile), Berlin<br>
 **Google Developer Expert** for Flutter & Dart
 
 I build Flutter apps with AI inside, and help other developers do the same. I co-founded and co-host the Flutter Community AI Circle, a bi-weekly Flutter × AI livestream since May 2025, co-authored a Packt book on Flutter design patterns, and give talks and workshops at FlutterCon EU, We Are Developers, DevFests and meetups. I co-organize Flutteristas (including the Flutteristas Conference), Flutter Berlin and DevFest Berlin, and co-lead GDG Cloud Berlin.
