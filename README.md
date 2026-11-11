@@ -1,73 +1,185 @@
-**Tech Lead, Senior Flutter & AI Engineer** at [Antigua Mobile](https://github.com/antigua-mobile), Berlin<br>
-**Google Developer Expert** for Flutter & Dart
-
-I build Flutter apps with AI inside, and help other developers do the same. I co-founded and co-host the Flutter Community AI Circle, a bi-weekly Flutter × AI livestream since May 2025, co-authored a Packt book on Flutter design patterns, and give talks and workshops at FlutterCon EU, We Are Developers, DevFests and meetups. I co-organize Flutteristas (including the Flutteristas Conference), Flutter Berlin and DevFest Berlin, and co-lead GDG Cloud Berlin.
-
-### Now
-
-- **7 to 9 Oct 2026** · [next.app devCon / FlutterCon EU](https://www.nextappcon.com/), Berlin · roundtable "Is Flutter a Smart Bet in an AI-Driven Job Market?" with Ivanna Kaceviča (7 Oct), and the Flutter booth
-- **11 Nov 2026** · [DevFest Atyrau 2026: From Build to Scale](https://gdg.community.dev/events/details/google-gdg-atyrau-presents-devfest-atyrau-2026-from-build-to-scale/), Kazakhstan · speaker, "SoundStage: She Will Be Loved (by Flutter)", to be confirmed
-- **14 Nov 2026** · [DevFest Berlin 2026](https://2026.devfest-berlin.de/), SRH Berlin · co-organizer and website contributor
-- **15 Nov 2026** · DevFest Gaziantep, Türkiye · speaker, slot to be confirmed
-- **11 Dec 2026** · DevFest Adana, Türkiye · speaker
-
 <p align="center">
-  <a href="https://esratech.com"><img src="assets/stage/flutter-berlin-meetup-2026.webp" alt="Esra on stage with a microphone at the Flutter Berlin Meetup, 2026" height="160" /></a>
-  <a href="https://esratech.com"><img src="assets/stage/google-io-2025.webp" alt="Esra in front of the main stage at Google I/O 2025" height="160" /></a>
-  <a href="https://esratech.com"><img src="assets/stage/devfest-women-2022.webp" alt="Esra presenting a Flutter app on the big screen at DevFest Women 2022" height="160" /></a>
-  <br />
-  <sub>Flutter Berlin Meetup 2026 · Google I/O 2025 · DevFest Women 2022</sub>
+  <a href="https://esratech.com"><img src="assets/apple/portrait.webp" alt="Portrait of Esra Kadah" width="152" /></a>
 </p>
 
-### Selected work
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/apple/hero-dark.svg" />
+    <img src="assets/apple/hero-light.svg" alt="Esra Kadah, Tech Lead, Senior Flutter & AI Engineer. Google Developer Expert, Flutter & Dart." width="800" />
+  </picture>
+</p>
 
-- [**Flutter Community AI Circle**](https://esratech.com/fcaic) · every episode, plus the [YouTube playlist](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)
-- [**Flutter Design Patterns and Best Practices**](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices) · my book with Packt, co-authored with Daria Orlova and Jaime Blasco, #1 bestseller in category
-- [**modemoiselle**](https://modemoiselle.web.app) · a Flutter + Gemini wardrobe app for organizing your closet and putting outfits together (live app, source private)
-- [**DevFest Berlin 2026 website**](https://2026.devfest-berlin.de/) · contributor to the community-built event site, Eleventy + Nunjucks ([source](https://github.com/devfest-berlin/2026.devfest.berlin))
-- [**patrol-mcp-guide**](https://github.com/esrakadah/patrol-mcp-guide) · AI-driven Flutter UI testing with Patrol and MCP
-- [**flutter_voice_bridge**](https://github.com/esrakadah/flutter_voice_bridge) · native platform integration (FFI, Platform Channels) with offline AI transcription
-- [**esra-whisper-recorder**](https://github.com/esrakadah/esra-whisper-recorder) · offline CLI voice recorder and transcriber
-- Order and stock tooling for a Shopify and Amazon store (Apimaye USA): a Flutter web admin on Firebase, Node.js integrations with the ShipStation and 3PL APIs, and a FedEx shipment-watch Slack bot
+<p align="center">
+  I build production Flutter apps with AI inside them, and show how on stage.<br />
+  At <a href="https://antigua-mobile.com/de/">Antigua Mobile</a> in Berlin.
+</p>
 
-### Talks
+<p align="center">
+  <a href="https://esratech.com"><b>esratech.com&nbsp;›</b></a>&emsp;
+  <a href="https://esratech.com/cv/"><b>CV&nbsp;›</b></a>&emsp;
+  <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3TdESI-2KJtknjVxNWDXkjoInHCyzOlFu2NDv_46tKIoTob-70zJMQQT2uVkn3P8U63LnQUlkN"><b>Book a 30 min call&nbsp;›</b></a>
+</p>
 
-- **Beyond Chatbots: When AI Owns the Interface** · Flutter Berlin Meetup, 20 Aug 2026
-- [**Flutter at Native Speed: The FFI and Platform Channels Way**](https://devfest-berlin-2025.sessionize.com/schedule) · DevFest tour 2025: Berlin, Kocaeli, Istanbul, Edirne, Konya
-- [**Flutter Vibes Only**](https://www.youtube.com/watch?v=GiqqJdZaqPk) · vibe-coding workshop series and Groundbreaker mentorship, FlutterCon EU 2025, co-led with Ivanna Kaceviča
-- **Bridging the Gap: Extending Flutter Beyond its Limits** · workshop at We Are Developers, Berlin: FFI, isolates and platform views, with an offline Whisper pipeline built live
-- [**Flutter & Friends 2024, main stage panel**](https://www.youtube.com/live/7Dx54EZiMAY?t=28122) · Stockholm, moderated by Alek Åström
+<p align="center">
+  <sub>Open to new roles from January 2027: permanent or freelance, Berlin hybrid or remote.</sub>
+</p>
+
+<br />
+
+<p align="center">
+  <a href="https://esratech.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/apple/stats-dark.svg" />
+      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 29 Flutter Community AI Circle episodes, co-founded and co-hosted. Number 1 Amazon Best Seller at launch, co-authored for Packt. 20+ talks and workshops since 2022." width="800" />
+    </picture>
+  </a>
+</p>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-now-dark.svg" />
+  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="560" />
+</picture>
+
+**14 Nov** · [DevFest Berlin 2026](https://2026.devfest-berlin.de), SRH Berlin<br />
+<sub>Talk "Dressing Up AI: What Shipping a Flutter + Gemini App Taught Me", Vibe Lounge lead and co-organizer</sub>
+
+**15 Nov** · DevFest Gaziantep, Türkiye<br />
+<sub>Workshop "Flutter ve Gemini ile production'a çıkmak: Firebase AI ile gerçek rakamlar", in Turkish</sub>
+
+**29 Nov** · DevFest Eskişehir 2026, Türkiye<br />
+<sub>Flutter session, title to be announced, in Turkish</sub>
+
+**11 Dec** · DevFest Adana, Türkiye<br />
+<sub>"AI-Powered Applications with Flutter: Building Real-World Features with Gemini and Firebase AI"</sub>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-work-dark.svg" />
+  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="560" />
+</picture>
+
+**Backyard Barista on Cloud Run**<br />
+A two-player AI café game in pure Flutter widgets. Gemini 3.5 Flash-Lite judges every order as structured JSON and catches salt in a sweet latte.<br />
+[Play&nbsp;›](https://backyard-barista-389486729482.europe-west3.run.app)&emsp;[Source and slides&nbsp;›](https://github.com/esrakadah/devfest-2026-backyard-barista-cloudrun)
+
+**Genkit + MCP dispatch agent**<br />
+A field service agent in pure Dart: Genkit, back office tools over MCP, and an approval gate so paid actions wait for a person. A 21 MB binary on Cloud Run.<br />
+[Read the build&nbsp;›](https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc)&emsp;[The bug I fixed upstream&nbsp;›](https://github.com/genkit-ai/genkit-dart/pull/658)
+
+**SoundStage**<br />
+A six-track music video editor in Flutter and Swift. A pure-Dart FFT lines up six takes of one song in 1.6 seconds on an iPhone.
+
+**modemoiselle**<br />
+A wardrobe and outfit app in production: Flutter and Gemini on Firebase AI Logic, App Check enforced, 841 tests.<br />
+[Open the app&nbsp;›](https://modemoiselle.web.app)
+
+**Document Processor** · Antigua Mobile, proptech<br />
+Gemini on Vertex AI in an EU region reads German property and legal PDFs and scores risk only with verbatim evidence from the document.
+
+**CompanyOS and a multi-tenant EV driver app** · chargecloud<br />
+A Flutter driver app for 100+ white-label tenants (Riverpod 3, Patrol E2E, GitLab CI rollout gates), and CompanyOS: shared docs and Claude Code agent tooling as one engineering source of truth.
+
+**Flutter Design Patterns and Best Practices** · Packt, 2024<br />
+Co-authored with [Daria Orlova](https://github.com/dariadroid) and [Jaime Blasco](https://github.com/jamesblasco). My chapters: navigation, and unit and widget testing.<br />
+[See the book&nbsp;›](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices)
 
 <details>
-<summary>More talks, workshops and community sessions</summary>
+<summary><b>Open source</b></summary>
+<br />
 
-- **Beyond Chatbots: Building Agentic Interfaces with Flutter GenUI and A2UI** · Google Cloud Builders Day Berlin 2026
-- **AI in Flutter Development: What's Actually Useful?** · roundtable, FlutterCon EU 2025, Berlin
-- [**AI Coding Assistants: Where They Can Fit in Your Flutter Development Routine**](https://www.youtube.com/live/ftTXXAx8AxM?t=37625) · Flutteristas Conference
-- [**Flutteristas Conference**](https://www.youtube.com/watch?v=9UAOMzl7Nuo) · main organization
-- **From Touch To Code: Gestures and Beyond** · FlutterCon Berlin 2024
-- **Coding Outside the Box: The Developer's Role in UX and Design Systems** · FlutterCon × droidcon, Berlin 2023
-- **Flutteristas Panel** · FlutterCon × droidcon, Berlin 2023
-- [**Flutter Design Patterns and Best Practices, the book talk**](https://www.figma.com/slides/rpO5XvxCWa1j0wQn85QQre/) · Flutteristas
-- [**Let's Build a Flutter App, Fast!**](https://www.youtube.com/watch?v=lYhBHvyLm6E) · a Flutter + Firebase chat app live in about 40 minutes, at Flutter Ottawa and four more meetups and DevFests (Gaziantep, Edirne, Hitit, Kozhikode)
-- [**Cleaner Flutter Code with Dart 3**](https://www.youtube.com/watch?v=pnh3xTR7D70) · Flutter Tel Aviv
-- [**Tests in Flutter: Making Sure Your Code Works**](https://www.youtube.com/watch?v=H2OykY1FPb8&t=14435s) · Flutter Festival Turquoise
-- [**Takeaways from Flutter Forward 2023**](https://www.youtube.com/watch?v=zoXFggMHCKw) · Google DSC Piri Reis University, in Turkish
-- [**Humpday Q&A/AMA with GDE Jhin Lee**](https://www.youtube.com/watch?v=1U-zd6MYrOA&t=877s) · Flutter Community
-- [**Humpday Q&A/AMA with Craig Labenz**](https://www.youtube.com/watch?v=HryfB44en0w) · Flutter Community, after Google I/O
-- [**Vibe Coding with Norbert**](https://www.youtube.com/watch?v=S01tPLxQiU4) · livestream series building a roguelike deck-builder with AI
+- [**flutter_voice_bridge**](https://github.com/esrakadah/flutter_voice_bridge) · Flutter beyond the widget layer: platform channels, a C++ FFI wrapper around whisper.cpp, offline transcription on an isolate
+- [**esra-whisper-recorder**](https://github.com/esrakadah/esra-whisper-recorder) · offline macOS voice recorder and transcriber for mixed English, German and Turkish audio
+- [**patrol-mcp-guide**](https://github.com/esrakadah/patrol-mcp-guide) · AI-assisted Flutter E2E testing with Patrol and the Model Context Protocol
+- [**agy-setup-audit**](https://github.com/esrakadah/agy-setup-audit) · read-only audit script, branch guard hook and templates for Google Antigravity
+- [**databricks-price-passport**](https://github.com/esrakadah/databricks-price-passport) · hourly energy prices where every price carries its model lineage; Flutter, Cloud Run, Genkit Dart. In progress
+- [**devfest-berlin-2026-vibe-lounge**](https://github.com/esrakadah/devfest-berlin-2026-vibe-lounge) · challenges and sprint guide for the DevFest Berlin 2026 Vibe Lounge
+- Contributions: [genkit-dart](https://github.com/genkit-ai/genkit-dart/pull/658) (interrupt restart fix for namespaced tools), [DevFest Berlin 2026 website](https://github.com/devfest-berlin/2026.devfest.berlin) (navigation, social preview, SEO, sponsors page)
 
 </details>
 
-Talk abstracts: [Sessionize](https://sessionize.com/esrakadah)
+<br />
 
-### Writing
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-stage-dark.svg" />
+  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="560" />
+</picture>
 
-- [FCAIC #4: Agentic Apps Hands-On (with a UX Twist!)](https://medium.com/@esrakadah/fcaic-4-agentic-apps-hands-on-with-a-ux-twist-fbc72cbf6859)
-- [Flutter & AI: What Really Landed for Developers at Google I/O 2025](https://medium.com/antigua-mobile/flutter-ai-what-really-landed-for-developers-at-google-i-o-2025-d7d91e8f7814)
-- [Material 3 Expressive: Rethinking Emotion, Accessibility & Modern UX](https://medium.com/antigua-mobile/material-3-expressive-rethinking-emotion-accessibility-modern-ux-9f4c888d87c9)
-- [Flutter x AI from Google I/O Connect Berlin](https://medium.com/@esrakadah/memories-and-updates-covering-flutter-x-ai-from-google-i-o-connect-berlin-2025-b82b137e1933)
+<p align="center">
+  <a href="https://esratech.com"><img src="assets/apple/stage-strip.webp" alt="Three stage photos: Esra at Google Cloud Build with Gemini 2026, pointing at her slides at DevFest Istanbul 2025, and on stage at Flutter Connection 2024 in Paris" width="800" /></a><br />
+  <sub>Google Cloud Build with Gemini 2026 · DevFest Istanbul 2025 · Flutter Connection 2024, Paris</sub>
+</p>
 
----
+- [**Google Cloud Build with Gemini, Track 2: App Builders**](https://esratech.com/build-with-gemini-antigravity/) · facilitator, Oct 2026
+- [**Is Flutter a Smart Bet in an AI-Driven Job Market?**](https://www.nextappcon.com/) · roundtable with Ivanna Kaceviča, next.app devCon, Berlin, Oct 2026
+- **Beyond Chatbots: When AI Owns the Interface** · Flutter Berlin Meetup, Aug 2026
+- **Beyond Chatbots: Building Agentic Interfaces with Flutter GenUI and A2UI** · Google Cloud Builders Day Berlin, Mar 2026
+- **The Flutter Way: FFI, Pigeon & On-Device AI** · DevFest Istanbul, Edirne and Konya, 2025
 
-[esratech.com](https://esratech.com) · [LinkedIn](https://linkedin.com/in/esratech) · [Bluesky](https://bsky.app/profile/esratech.bsky.social) · [X](https://x.com/esratech) · [Instagram](https://www.instagram.com/esra.tech) · [Medium](https://medium.com/@esrakadah) · [Sessionize](https://sessionize.com/esrakadah)
+<details>
+<summary><b>All talks, workshops and sessions</b></summary>
+<br />
+
+- **Flutter at Native Speed: The FFI and Platform Channels Way** · DevFest Berlin 2024 and 2025, DevFest Kocaeli 2025, Flutter Heroes 2024 (Turin), GDG Berlin
+- [**Flutter Vibes Only**](https://www.youtube.com/watch?v=GiqqJdZaqPk) · vibe-coding workshop with Ivanna Kaceviča, FlutterCon EU 2025 and Flutter & Friends 2025
+- [**Flutter Vibes Only: Groundbreaker Talents**](https://www.linkedin.com/posts/be-a-groundbreaker_flutter-womenintech-aiintech-activity-7402633497124745216-3TWD) · mentorship session for 40+ scholarship recipients, online, Dec 2025
+- **AI in Flutter Development: What's Actually Useful?** · roundtable, next.app devCon / FlutterCon EU 2025, Berlin
+- **Bridging the Gap: Extending Flutter Beyond Its Limits** · workshop with Simon Auer, WeAreDevelopers World Congress 2025, Berlin
+- [**From Touch To Code: Gestures and Beyond**](https://www.youtube.com/watch?v=_wDFAA1Pl80) · Flutter Connection 2024 (Paris), Flutter Berlin meetup, FlutterCon EU 2024
+- [**Flutter & Friends 2024, main stage panel**](https://www.youtube.com/live/7Dx54EZiMAY?t=28122) · moderated by Alek Åström
+- **Build and Ship a Flutter App in 40 Minutes** · DevFest Edirne 2023
+- **Coding Outside the Box: The Developer's Role in User Experience and Design Systems** · FlutterCon × droidcon Berlin 2023
+- **Flutteristas Panel** · fluttercon Berlin 2023
+- **Flutter Extraordinaire: Create Stunning Apps with Elegance and Style** · DevFest Women 2022, Google Istanbul
+- [**Let's Build a Flutter App, Fast!**](https://www.youtube.com/watch?v=lYhBHvyLm6E) · a Flutter and Firebase chat app live in about 40 minutes, Flutter Ottawa and more meetups and DevFests
+- [**AI Coding Assistants in Your Flutter Routine**](https://www.youtube.com/live/ftTXXAx8AxM?t=37625) · Flutteristas Conference
+- [**Cleaner Flutter Code with Dart 3**](https://www.youtube.com/watch?v=pnh3xTR7D70) · Flutter Tel Aviv
+- [**Tests in Flutter: Making Sure Your Code Works**](https://www.youtube.com/watch?v=H2OykY1FPb8&t=14435s) · Flutter Festival Turquoise
+- [**Takeaways from Flutter Forward 2023**](https://www.youtube.com/watch?v=zoXFggMHCKw) · Google DSC Piri Reis University, in Turkish
+- [**Humpday Q&A with Craig Labenz**](https://www.youtube.com/watch?v=HryfB44en0w) and [**with Jhin Lee**](https://www.youtube.com/watch?v=1U-zd6MYrOA&t=877s) · Flutter Community
+
+Abstracts and talks I offer: [Sessionize&nbsp;›](https://sessionize.com/esrakadah)
+
+</details>
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-writing-dark.svg" />
+  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="560" />
+</picture>
+
+- [**Human-in-the-Loop Agents in Pure Dart: Genkit, MCP and an Approval Gate on Cloud Run**](https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc) · dev.to, Oct 2026
+- [**I approved the order. Then my Genkit Dart agent forgot its own tool.**](https://dev.to/gde/i-approved-the-order-then-my-genkit-dart-agent-forgot-its-own-tool-3mjp) · dev.to, Oct 2026
+- [**Shipping Flutter Web to Firebase When Your GitHub Actions Budget Hits Zero**](https://dev.to/gde/shipping-flutter-web-to-firebase-when-your-github-actions-budget-hits-zero-2mi5) · dev.to, Oct 2026
+- [**Building Agentic Apps with Gemini & Antigravity: Track 2 Field Notes**](https://esratech.com/build-with-gemini-antigravity/) · esratech.com, Oct 2026
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-community-dark.svg" />
+  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="560" />
+</picture>
+
+- [**Flutter Community AI Circle**](https://esratech.com/flutter-community-ai-circle-fcaic/) · co-founder and co-host of the Flutter, Dart and AI livestream, every episode searchable · [YouTube&nbsp;›](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)
+- [**Flutteristas**](https://flutteristas.org/) · co-organizer, for women and non-binary people in Flutter
+- [**Flutter Berlin**](https://www.meetup.com/de-de/flutter-berlin/) · co-organizer
+- [**DevFest Berlin**](https://2026.devfest-berlin.de) · co-organizer and website contributor
+- [**GDG Cloud Berlin**](https://gdg.community.dev/gdg-cloud-berlin/) · co-lead
+- [**GDG Cloud Istanbul**](https://gdg.community.dev/gdg-cloud-istanbul/) · co-organizer, 2020 to 2023
+
+Featured by Google for Developers: [my community story&nbsp;›](https://developers.google.com/community/stories/story-d0e9a388)&emsp;[Developers Blog, 2022&nbsp;›](https://developers.googleblog.com/en/celebrating-global-women-in-tech-and-trailblazers/)
+
+<br />
+
+<p align="center">
+  <a href="https://esratech.com">esratech.com</a> ·
+  <a href="https://linkedin.com/in/esratech">LinkedIn</a> ·
+  <a href="https://bsky.app/profile/esratech.bsky.social">Bluesky</a> ·
+  <a href="https://x.com/esratech">X</a> ·
+  <a href="https://www.instagram.com/esra.tech">Instagram</a> ·
+  <a href="https://sessionize.com/esrakadah">Sessionize</a> ·
+  <a href="mailto:hello@esratech.com">hello@esratech.com</a>
+</p>
