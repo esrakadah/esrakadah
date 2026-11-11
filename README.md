@@ -43,16 +43,16 @@
 </picture>
 
 **14 Nov** · [DevFest Berlin 2026](https://2026.devfest-berlin.de), SRH Berlin<br />
-<sub>Talk "Dressing Up AI: What Shipping a Flutter + Gemini App Taught Me", Vibe Lounge lead and co-organizer</sub>
+Talk "Dressing Up AI: What Shipping a Flutter + Gemini App Taught Me", Vibe Lounge lead and co-organizer
 
 **15 Nov** · DevFest Gaziantep, Türkiye<br />
-<sub>Workshop "Flutter ve Gemini ile production'a çıkmak: Firebase AI ile gerçek rakamlar", in Turkish</sub>
+Workshop "Flutter ve Gemini ile production'a çıkmak: Firebase AI ile gerçek rakamlar", in Turkish
 
 **29 Nov** · DevFest Eskişehir 2026, Türkiye<br />
-<sub>Flutter session, title to be announced, in Turkish</sub>
+Flutter session, title to be announced, in Turkish
 
 **11 Dec** · DevFest Adana, Türkiye<br />
-<sub>"AI-Powered Applications with Flutter: Building Real-World Features with Gemini and Firebase AI"</sub>
+"AI-Powered Applications with Flutter: Building Real-World Features with Gemini and Firebase AI"
 
 <br />
 
