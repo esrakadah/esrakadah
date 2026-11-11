@@ -136,8 +136,8 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 </picture>
 
 <p align="center">
-  <a href="https://dev.to/gde/i-approved-the-order-then-my-genkit-dart-agent-forgot-its-own-tool-3mjp"><img src="assets/apple/card-genkit-restart.webp" alt="Article cover: an interrupt waiting for human approval in a Genkit Dart agent" width="48%" /></a>
-  <a href="https://dev.to/gde/shipping-flutter-web-to-firebase-when-your-github-actions-budget-hits-zero-2mi5"><img src="assets/apple/card-budget-zero.webp" alt="Article cover: a GitHub Actions budget gauge at 100 percent next to a Firebase deploy" width="48%" /></a>
+  <a href="https://dev.to/gde/i-approved-the-order-then-my-genkit-dart-agent-forgot-its-own-tool-3mjp"><img src="assets/apple/card-genkit-restart.webp" alt="Article cover: an interrupt waiting for human approval in a Genkit Dart agent" width="40%" /></a>
+  <a href="https://dev.to/gde/shipping-flutter-web-to-firebase-when-your-github-actions-budget-hits-zero-2mi5"><img src="assets/apple/card-budget-zero.webp" alt="Article cover: a GitHub Actions budget gauge at 100 percent next to a Firebase deploy" width="40%" /></a>
 </p>
 
 - ✍️ [**I approved the order. Then my Genkit Dart agent forgot its own tool.**](https://dev.to/gde/i-approved-the-order-then-my-genkit-dart-agent-forgot-its-own-tool-3mjp) · dev.to, Oct 2026
@@ -153,8 +153,8 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 </picture>
 
 <p align="center">
-  <a href="https://esratech.com/flutter-community-ai-circle-fcaic/"><img src="assets/apple/card-fcaic.webp" alt="Flutter Community AI Circle episode card: Agentic Apps Hands-On" width="48%" /></a>
-  <a href="https://www.meetup.com/de-de/flutter-berlin/"><img src="assets/apple/card-flutter-berlin.webp" alt="Flutter Berlin meetup banner with Dash" width="48%" /></a>
+  <a href="https://esratech.com/flutter-community-ai-circle-fcaic/"><img src="assets/apple/card-fcaic.webp" alt="Flutter Community AI Circle episode card: Agentic Apps Hands-On" width="40%" /></a>
+  <a href="https://www.meetup.com/de-de/flutter-berlin/"><img src="assets/apple/card-flutter-berlin.webp" alt="Flutter Berlin meetup banner with Dash" width="40%" /></a>
 </p>
 
 - 🤖 [**Flutter Community AI Circle**](https://esratech.com/flutter-community-ai-circle-fcaic/) · I co-founded it and co-host it. Flutter, Dart and AI, live since May 2025 · [YouTube&nbsp;›](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)
