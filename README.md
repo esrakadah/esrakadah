@@ -42,12 +42,12 @@
   <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="250" />
 </picture>
 
-| | When | Where | What I'm doing |
-|:-:|---|---|---|
-| 🇩🇪 | **14 Nov** | [DevFest Berlin](https://2026.devfest-berlin.de) | 🎤 Talk "Dressing Up AI" and ☕ the Vibe Lounge, plus co-organizing |
-| 🇹🇷 | **15 Nov** | DevFest Gaziantep | 🛠️ Workshop "Flutter ve Gemini ile production'a çıkmak", in Turkish |
-| 🇹🇷 | **29 Nov** | DevFest Eskişehir | 🎤 Flutter session, in Turkish |
-| 🇹🇷 | **11 Dec** | DevFest Adana | 🎤 "AI-Powered Applications with Flutter" |
+| When | Where | What I'm doing |
+|---|---|---|
+| **14 Nov** | 🇩🇪 [DevFest Berlin](https://2026.devfest-berlin.de) | 🎤 "Dressing Up AI" + ☕ Vibe Lounge |
+| **15 Nov** | 🇹🇷 DevFest Gaziantep | 🛠️ Flutter + Gemini workshop, in Turkish |
+| **29 Nov** | 🇹🇷 DevFest Eskişehir | 🎤 Flutter talk, in Turkish |
+| **11 Dec** | 🇹🇷 DevFest Adana | 🎤 AI-Powered Applications with Flutter |
 
 <br />
 
