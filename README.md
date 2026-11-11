@@ -30,7 +30,7 @@
   <a href="https://esratech.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/apple/stats-dark.svg" />
-      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 29 Flutter Community AI Circle episodes, co-founded and co-hosted. Number 1 Amazon Best Seller at launch for my Packt book, 2024. 20+ talks and workshops since 2022." width="440" />
+      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 29 Flutter Community AI Circle episodes, co-founded and co-hosted. Number 1 Amazon Best Seller at launch for my Packt book, 2024. 20+ talks and workshops since 2022." width="100%" />
     </picture>
   </a>
 </p>

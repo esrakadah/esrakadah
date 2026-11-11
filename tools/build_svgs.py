@@ -26,10 +26,10 @@ HERO = {
 }
 
 STAT_TILES = [
-    {"eyebrow": "Google Developer Expert", "figure": "GDE", "caption": ["For Flutter & Dart,", "named by Google."]},
-    {"eyebrow": "Flutter × AI livestream", "figure": "29", "caption": ["Episodes, co-founded", "and co-hosted."]},
-    {"eyebrow": "Packt book, 2024", "figure": "#1", "caption": ["Amazon Best Seller", "at launch."]},
-    {"eyebrow": "On stage", "figure": "20+", "caption": ["Talks and workshops", "since 2022."]},
+    {"eyebrow": ["Google Developer", "Expert"], "figure": "GDE", "caption": ["For Flutter & Dart,", "named by Google."]},
+    {"eyebrow": ["Flutter × AI", "livestream"], "figure": "29", "caption": ["Episodes,", "co-founded and", "co-hosted."]},
+    {"eyebrow": ["Packt book, 2024"], "figure": "#1", "caption": ["Amazon Best", "Seller at launch."]},
+    {"eyebrow": ["On stage"], "figure": "20+", "caption": ["Talks and", "workshops", "since 2022."]},
 ]
 
 # Widths are the SF Pro text width plus 12 percent, so wider fallback fonts still fit.
@@ -43,11 +43,13 @@ SECTION_HEADINGS = {
 
 HERO_WIDTH = 600
 HERO_HEIGHT = 200
-TILE_WIDTH = 388
-TILE_HEIGHT = 270
-TILE_GAP = 24
+# One row of four tiles. The widest line, "Google Developer" at 28 px, is 227 px in SF Pro, plus 12 percent.
+TILE_WIDTH = 310
+TILE_HEIGHT = 345
+TILE_GAP = 20
 TILE_RADIUS = 28
-TILE_PADDING = 32
+TILE_PADDING = 26
+TILE_LINE_HEIGHT = 34
 HEADING_HEIGHT = 72
 
 
@@ -79,25 +81,22 @@ def hero_svg(theme: dict) -> str:
 
 
 def stats_svg(theme: dict) -> str:
-    columns = 2
-    rows = (len(STAT_TILES) + columns - 1) // columns
-    width = columns * TILE_WIDTH + (columns - 1) * TILE_GAP
-    height = rows * TILE_HEIGHT + (rows - 1) * TILE_GAP
+    width = len(STAT_TILES) * TILE_WIDTH + (len(STAT_TILES) - 1) * TILE_GAP
     body = ""
     for index, tile in enumerate(STAT_TILES):
-        left = (index % columns) * (TILE_WIDTH + TILE_GAP)
-        top = (index // columns) * (TILE_HEIGHT + TILE_GAP)
+        left = index * (TILE_WIDTH + TILE_GAP)
         body += (
-            f'<rect x="{left}" y="{top}" width="{TILE_WIDTH}" height="{TILE_HEIGHT}" '
+            f'<rect x="{left}" y="0" width="{TILE_WIDTH}" height="{TILE_HEIGHT}" '
             f'rx="{TILE_RADIUS}" fill="{theme["tile"]}"/>\n'
         )
         x = left + TILE_PADDING
-        body += text(x, top + 56, tile["eyebrow"], 24, 600, theme["accent"])
-        body += text(x, top + 146, tile["figure"], 80, 700, theme["primary"], tracking=-2.5)
+        for line_index, line in enumerate(tile["eyebrow"]):
+            body += text(x, 52 + line_index * TILE_LINE_HEIGHT, line, 28, 600, theme["accent"])
+        body += text(x, 196, tile["figure"], 96, 700, theme["primary"], tracking=-2.5)
         for line_index, line in enumerate(tile["caption"]):
-            body += text(x, top + 202 + line_index * 34, line, 28, 500, theme["secondary"], tracking=-0.2)
+            body += text(x, 248 + line_index * TILE_LINE_HEIGHT, line, 28, 500, theme["secondary"], tracking=-0.2)
     label = " ".join(f'{tile["figure"]}: {" ".join(tile["caption"])}' for tile in STAT_TILES)
-    return svg_document(width, height, label, body)
+    return svg_document(width, TILE_HEIGHT, label, body)
 
 
 def heading_svg(theme: dict, lead: str, rest: str, width: int) -> str:
