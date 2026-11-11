@@ -5,7 +5,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/apple/hero-dark.svg" />
-    <img src="assets/apple/hero-light.svg" alt="Esra Kadah, Tech Lead, Senior Flutter & AI Engineer. Google Developer Expert, Flutter & Dart." width="800" />
+    <img src="assets/apple/hero-light.svg" alt="Esra Kadah, Tech Lead, Senior Flutter & AI Engineer. Google Developer Expert, Flutter & Dart." width="600" />
   </picture>
 </p>
 
@@ -17,7 +17,7 @@
 <p align="center">
   <a href="https://esratech.com"><b>esratech.com&nbsp;›</b></a>&emsp;
   <a href="https://esratech.com/cv/"><b>CV&nbsp;›</b></a>&emsp;
-  <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3TdESI-2KJtknjVxNWDXkjoInHCyzOlFu2NDv_46tKIoTob-70zJMQQT2uVkn3P8U63LnQUlkN"><b>Book a 30 min call&nbsp;›</b></a>
+  <a href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ3TdESI-2KJtknjVxNWDXkjoInHCyzOlFu2NDv_46tKIoTob-70zJMQQT2uVkn3P8U63LnQUlkN"><b>Book&nbsp;a&nbsp;30&nbsp;min&nbsp;call&nbsp;›</b></a>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
   <a href="https://esratech.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/apple/stats-dark.svg" />
-      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 29 Flutter Community AI Circle episodes, co-founded and co-hosted. Number 1 Amazon Best Seller at launch, co-authored for Packt. 20+ talks and workshops since 2022." width="800" />
+      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 29 Flutter Community AI Circle episodes, co-founded and co-hosted. Number 1 Amazon Best Seller at launch for my Packt book, 2024. 20+ talks and workshops since 2022." width="800" />
     </picture>
   </a>
 </p>
@@ -39,7 +39,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-now-dark.svg" />
-  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="560" />
+  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="375" />
 </picture>
 
 **14 Nov** · [DevFest Berlin 2026](https://2026.devfest-berlin.de), SRH Berlin<br />
@@ -58,7 +58,7 @@ Flutter session, title to be announced, in Turkish
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-work-dark.svg" />
-  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="560" />
+  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="555" />
 </picture>
 
 **Backyard Barista on Cloud Run**<br />
@@ -104,7 +104,7 @@ Co-authored with [Daria Orlova](https://github.com/dariadroid) and [Jaime Blasco
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-stage-dark.svg" />
-  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="560" />
+  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="510" />
 </picture>
 
 <p align="center">
@@ -148,7 +148,7 @@ Abstracts and talks I offer: [Sessionize&nbsp;›](https://sessionize.com/esraka
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-writing-dark.svg" />
-  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="560" />
+  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="488" />
 </picture>
 
 - [**Human-in-the-Loop Agents in Pure Dart: Genkit, MCP and an Approval Gate on Cloud Run**](https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc) · dev.to, Oct 2026
@@ -160,7 +160,7 @@ Abstracts and talks I offer: [Sessionize&nbsp;›](https://sessionize.com/esraka
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-community-dark.svg" />
-  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="560" />
+  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="488" />
 </picture>
 
 - [**Flutter Community AI Circle**](https://esratech.com/flutter-community-ai-circle-fcaic/) · co-founder and co-host of the Flutter, Dart and AI livestream, every episode searchable · [YouTube&nbsp;›](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)

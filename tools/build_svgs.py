@@ -26,28 +26,28 @@ HERO = {
 }
 
 STAT_TILES = [
-    {"eyebrow": "Google Developer Expert", "figure": "GDE", "caption": ["Recognized by Google", "for Flutter & Dart."]},
-    {"eyebrow": "Flutter Community AI Circle", "figure": "29", "caption": ["Livestream episodes,", "co-founded and co-hosted."]},
-    {"eyebrow": "Flutter Design Patterns", "figure": "#1", "caption": ["Amazon Best Seller at launch,", "co-authored for Packt."]},
+    {"eyebrow": "Google Developer Expert", "figure": "GDE", "caption": ["For Flutter & Dart,", "named by Google."]},
+    {"eyebrow": "Flutter × AI livestream", "figure": "29", "caption": ["Episodes, co-founded", "and co-hosted."]},
+    {"eyebrow": "Packt book, 2024", "figure": "#1", "caption": ["Amazon Best Seller", "at launch."]},
     {"eyebrow": "On stage", "figure": "20+", "caption": ["Talks and workshops", "since 2022."]},
 ]
 
+# Widths are the SF Pro text width plus 12 percent, so wider fallback fonts still fit.
 SECTION_HEADINGS = {
-    "now": ("Now.", "Where I'll be next."),
-    "work": ("Work.", "Flutter and Gemini, shipped."),
-    "stage": ("On stage.", "Talks and workshops."),
-    "writing": ("Writing.", "Notes from building it."),
-    "community": ("Community.", "Where I organize."),
+    "now": ("Now.", "Where I'll be next.", 500),
+    "work": ("Work.", "Flutter and Gemini, shipped.", 740),
+    "stage": ("On stage.", "Talks and workshops.", 680),
+    "writing": ("Writing.", "Notes from building it.", 650),
+    "community": ("Community.", "Where I organize.", 650),
 }
 
-HERO_WIDTH = 800
+HERO_WIDTH = 600
 HERO_HEIGHT = 200
 TILE_WIDTH = 388
-TILE_HEIGHT = 260
+TILE_HEIGHT = 270
 TILE_GAP = 24
 TILE_RADIUS = 28
-TILE_PADDING = 36
-HEADING_WIDTH = 800
+TILE_PADDING = 32
 HEADING_HEIGHT = 72
 
 
@@ -92,15 +92,15 @@ def stats_svg(theme: dict) -> str:
             f'rx="{TILE_RADIUS}" fill="{theme["tile"]}"/>\n'
         )
         x = left + TILE_PADDING
-        body += text(x, top + 58, tile["eyebrow"], 20, 600, theme["accent"])
-        body += text(x, top + 150, tile["figure"], 84, 700, theme["primary"], tracking=-2.5)
+        body += text(x, top + 56, tile["eyebrow"], 24, 600, theme["accent"])
+        body += text(x, top + 152, tile["figure"], 92, 700, theme["primary"], tracking=-2.5)
         for line_index, line in enumerate(tile["caption"]):
-            body += text(x, top + 196 + line_index * 30, line, 23, 500, theme["secondary"], tracking=-0.2)
+            body += text(x, top + 202 + line_index * 34, line, 28, 500, theme["secondary"], tracking=-0.2)
     label = " ".join(f'{tile["figure"]}: {" ".join(tile["caption"])}' for tile in STAT_TILES)
     return svg_document(width, height, label, body)
 
 
-def heading_svg(theme: dict, lead: str, rest: str) -> str:
+def heading_svg(theme: dict, lead: str, rest: str, width: int) -> str:
     size = 44
     body = (
         f'<text x="0" y="54" font-family="{FONT_STACK}" font-size="{size}" font-weight="700" '
@@ -108,7 +108,7 @@ def heading_svg(theme: dict, lead: str, rest: str) -> str:
         f'<tspan fill="{theme["primary"]}">{escape(lead)}</tspan>'
         f'<tspan fill="{theme["secondary"]}"> {escape(rest)}</tspan></text>\n'
     )
-    return svg_document(HEADING_WIDTH, HEADING_HEIGHT, f"{lead} {rest}", body)
+    return svg_document(width, HEADING_HEIGHT, f"{lead} {rest}", body)
 
 
 def main() -> None:
@@ -116,9 +116,9 @@ def main() -> None:
     for theme_name, theme in THEMES.items():
         (OUTPUT_DIR / f"hero-{theme_name}.svg").write_text(hero_svg(theme), encoding="utf-8")
         (OUTPUT_DIR / f"stats-{theme_name}.svg").write_text(stats_svg(theme), encoding="utf-8")
-        for key, (lead, rest) in SECTION_HEADINGS.items():
+        for key, (lead, rest, width) in SECTION_HEADINGS.items():
             (OUTPUT_DIR / f"heading-{key}-{theme_name}.svg").write_text(
-                heading_svg(theme, lead, rest), encoding="utf-8"
+                heading_svg(theme, lead, rest, width), encoding="utf-8"
             )
 
 
