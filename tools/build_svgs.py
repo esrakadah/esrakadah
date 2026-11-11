@@ -70,7 +70,7 @@ def text(x: float, y: float, content: str, size: int, weight: int, fill: str, an
 def hero_svg(theme: dict) -> str:
     center = HERO_WIDTH / 2
     body = (
-        text(center, 36, HERO["eyebrow"], 22, 600, theme["accent"], "middle")
+        text(center, 36, HERO["eyebrow"], 24, 600, theme["accent"], "middle")
         + text(center, 124, HERO["name"], 80, 700, theme["primary"], "middle", -2)
         + text(center, 178, HERO["title"], 30, 500, theme["secondary"], "middle", -0.3)
     )
@@ -93,7 +93,7 @@ def stats_svg(theme: dict) -> str:
         )
         x = left + TILE_PADDING
         body += text(x, top + 56, tile["eyebrow"], 24, 600, theme["accent"])
-        body += text(x, top + 152, tile["figure"], 92, 700, theme["primary"], tracking=-2.5)
+        body += text(x, top + 146, tile["figure"], 80, 700, theme["primary"], tracking=-2.5)
         for line_index, line in enumerate(tile["caption"]):
             body += text(x, top + 202 + line_index * 34, line, 28, 500, theme["secondary"], tracking=-0.2)
     label = " ".join(f'{tile["figure"]}: {" ".join(tile["caption"])}' for tile in STAT_TILES)
