@@ -46,7 +46,7 @@
   <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="100%" />
 </picture>
 
-- **Sat 14 Nov** · [DevFest Berlin](https://2026.devfest-berlin.de), Germany<br />🎤 My talk "Dressing Up AI", then the Vibe Lounge: come build an app with Gemini ☕
+- **Sat 14 Nov** · [DevFest Berlin](https://2026.devfest-berlin.de), Germany<br />🎤 My talk "Dressing Up AI", then the Vibe Lounge: come build an app with Gemini
 - **Sun 15 Nov** · DevFest Gaziantep, Türkiye<br />🛠️ Flutter + Gemini workshop, in Turkish
 - **Fri 11 Dec** · DevFest Adana, Türkiye<br />🎤 AI-Powered Applications with Flutter
 
@@ -65,13 +65,13 @@
   <a href="https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices"><img src="assets/apple/card-book.webp" alt="Cover of Flutter Design Patterns and Best Practices by Daria Orlova, Esra Kadah and Jaime Blasco" width="32%" /></a>
 </p>
 
-- ☕ [**Backyard Barista**](https://backyard-barista-389486729482.europe-west3.run.app) · a two-player café game in Flutter on Cloud Run. Gemini judges every order and catches the salt you sneak into a sweet latte 🙈 [Code&nbsp;›](https://github.com/esrakadah/devfest-2026-backyard-barista-cloudrun)
-- 🤖 [**Genkit + MCP agent**](https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc) · pure Dart, and paid orders wait until a person says yes. I hit a bug on the way and [fixed it upstream](https://github.com/genkit-ai/genkit-dart/pull/658) 💪
-- 🎬 **SoundStage** · six takes of one song, lined up by a Dart FFT right on the iPhone 🔥
+- [**Backyard Barista**](https://backyard-barista-389486729482.europe-west3.run.app) · a two-player café game in Flutter on Cloud Run. Gemini judges every order and catches the salt you sneak into a sweet latte 🙈 [Code&nbsp;›](https://github.com/esrakadah/devfest-2026-backyard-barista-cloudrun)
+- 🤖 [**Genkit + MCP agent**](https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc) · pure Dart, and paid orders wait until a person says yes. I hit a bug on the way and [fixed it upstream](https://github.com/genkit-ai/genkit-dart/pull/658)
+- 🎬 **SoundStage** · every take of one song, lined up by a Dart FFT right on the iPhone
 - 👗 [**modemoiselle**](https://modemoiselle.web.app) · my wardrobe app, Flutter and Gemini, live on the web
 - 📄 **Document Processor** at Antigua · Gemini on Vertex AI reads German property PDFs and flags a risk only when it can quote the document
 - ⚡️ **EV charging app** · one Flutter codebase that ships as many white-label brands
-- 📘 [**Flutter Design Patterns and Best Practices**](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices) · the Packt book I co-wrote with [Daria Orlova](https://github.com/dariadroid) and [Jaime Blasco](https://github.com/jamesblasco), out since 2024 🤓
+- 📘 [**Flutter Design Patterns and Best Practices**](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices) · the Packt book I co-wrote with [Daria Orlova](https://github.com/dariadroid) and [Jaime Blasco](https://github.com/jamesblasco), out since 2024
 
 <details>
 <summary><b>Open source</b></summary>

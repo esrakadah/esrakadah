@@ -20,8 +20,6 @@ FONT_STACK = (
     "'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
 )
 
-SEED = "#0553B1"
-
 # Material 3 roles per theme. "page" is the GitHub page colour the SVG sits on (used only for checks).
 THEMES = {
     "light": {
@@ -229,8 +227,16 @@ def check_contrast() -> None:
         assert text_width(rest, "title") <= HEADING_COMPACT_CANVAS, f"too wide: {rest}"
 
 
+def check_readme() -> None:
+    """The README's media queries must use the same breakpoint as the layouts built here."""
+    readme = (OUTPUT_DIR.parent.parent / "README.md").read_text(encoding="utf-8")
+    assert f"(max-width: {COMPACT_BREAKPOINT}px)" in readme, "README breakpoint differs from COMPACT_BREAKPOINT"
+    assert "(max-width: " not in readme.replace(f"(max-width: {COMPACT_BREAKPOINT}px)", ""), "mixed breakpoints"
+
+
 def main() -> None:
     check_contrast()
+    check_readme()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for theme_name, theme in THEMES.items():
         (OUTPUT_DIR / f"hero-{theme_name}.svg").write_text(hero_svg(theme), encoding="utf-8")
