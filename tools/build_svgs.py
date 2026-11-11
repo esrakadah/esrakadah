@@ -1,7 +1,13 @@
 """Writes the light and dark SVGs in assets/apple/ used by README.md.
 
 Run from the repo root: python3 tools/build_svgs.py
-Text lives here, so a changed number or heading is one edit and one rerun.
+Text and design tokens live here, so a changed number, heading or colour is one edit and one rerun.
+Never hand-edit the generated SVGs.
+
+Colour roles follow Material 3: one tonal palette derived from the seed colour (Flutter blue #0553B1,
+HCT hue 266), with a primary, an on-surface and an on-surface-variant role per theme. Tones were taken
+from material-color-utilities (TonalPalette, chroma 56 for primary, 6 to 8 for the neutrals).
+Every text colour passes WCAG AA on the GitHub page colour of its theme (checked in check_contrast()).
 """
 
 from pathlib import Path
@@ -14,10 +20,40 @@ FONT_STACK = (
     "'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
 )
 
+SEED = "#0553B1"
+
+# Material 3 roles per theme. "page" is the GitHub page colour the SVG sits on (used only for checks).
 THEMES = {
-    "light": {"primary": "#1d1d1f", "secondary": "#6e6e73", "accent": "#0071e3"},
-    "dark": {"primary": "#f5f5f7", "secondary": "#a1a1a6", "accent": "#2997ff"},
+    "light": {
+        "page": "#ffffff",
+        "primary": "#195bb9",  # primary tone 40
+        "on_surface": "#1a1b20",  # neutral tone 10
+        "on_surface_variant": "#44474f",  # neutral variant tone 30
+        "container": "#edf0ff",  # primary tone 95
+        "outline": "#d8e2ff",  # primary tone 90
+    },
+    "dark": {
+        "page": "#0d1117",
+        "primary": "#adc6ff",  # primary tone 80
+        "on_surface": "#e2e2e9",  # neutral tone 90
+        "on_surface_variant": "#c4c6d0",  # neutral variant tone 80
+        "container": "#002e69",  # primary tone 20, drawn at CONTAINER_OPACITY_DARK
+        "outline": "#004494",  # primary tone 30
+    },
 }
+CONTAINER_OPACITY_DARK = 0.6
+
+# Type scale (SVG units). One size per role, the same in every SVG.
+TYPE = {
+    "display": {"size": 88, "weight": 700, "tracking": -2.5},
+    "hero_name": {"size": 80, "weight": 700, "tracking": -2},
+    "headline": {"size": 44, "weight": 700, "tracking": -1},
+    "title": {"size": 30, "weight": 500, "tracking": -0.3},
+    "label": {"size": 24, "weight": 600, "tracking": 0},
+    "body": {"size": 24, "weight": 500, "tracking": -0.1},
+}
+
+GRID = 8  # every offset below is a multiple of the 8 pt grid
 
 HERO = {
     "eyebrow": "Google Developer Expert, Flutter & Dart",
@@ -25,34 +61,50 @@ HERO = {
     "title": "Tech Lead, Senior Flutter & AI Engineer",
 }
 
+# Only facts with a written source (see the GBU archive). No number without one.
 STAT_TILES = [
-    {"eyebrow": ["Google Developer", "Expert"], "figure": "GDE", "caption": ["For Flutter & Dart,", "named by Google."]},
-    {"eyebrow": ["Flutter × AI", "livestream"], "figure": "29", "caption": ["Episodes,", "co-founded and", "co-hosted."]},
-    {"eyebrow": ["Packt book, 2024"], "figure": "#1", "caption": ["Amazon Best", "Seller at launch."]},
-    {"eyebrow": ["On stage"], "figure": "20+", "caption": ["Talks and", "workshops", "since 2022."]},
+    {"eyebrow": "Named by Google", "figure": "GDE", "caption": ["Developer Expert,", "Flutter and Dart"],
+     "alt": "GDE: Google Developer Expert for Flutter and Dart."},
+    {"eyebrow": "On stage", "figure": "20+", "caption": ["Talks & workshops", "since 2022"],
+     "alt": "20+ talks and workshops since 2022."},
+    {"eyebrow": "Packt book, 2024", "figure": "Book", "caption": ["Co-author, Flutter", "Design Patterns", "and Best Practices"],
+     "alt": "Book: co-author of Flutter Design Patterns and Best Practices, Packt 2024."},
+    {"eyebrow": "Since May 2025", "figure": "Live", "caption": ["Co-host, Flutter", "Community AI", "Circle stream"],
+     "alt": "Live: co-host of the Flutter Community AI Circle stream since May 2025."},
 ]
 
-# Widths are the SF Pro text width plus 12 percent, so wider fallback fonts still fit.
 SECTION_HEADINGS = {
-    "now": ("Now.", "Where I'll be next.", 500),
-    "work": ("Work.", "Flutter and Gemini, shipped.", 740),
-    "stage": ("On stage.", "Talks and workshops.", 680),
-    "writing": ("Writing.", "Notes from building it.", 650),
-    "community": ("Community.", "Where I organize.", 650),
+    "now": ("Now.", "Where I'll be next."),
+    "work": ("Work.", "Flutter and Gemini, shipped."),
+    "stage": ("On stage.", "Talks and workshops."),
+    "writing": ("Writing.", "Notes from building it."),
+    "community": ("Community.", "Where I organize."),
 }
 
 HERO_WIDTH = 600
 HERO_HEIGHT = 200
-# One row of four tiles. The widest line, "Google Developer" at 28 px, is 227 px in SF Pro; plus 12 percent
-# and 26 px padding on each side that is 306 px, so it fits in 310.
-TILE_WIDTH = 310
-TILE_HEIGHT = 345
-TILE_GAP = 20
-TILE_RADIUS = 28
-TILE_STROKE = 1.5
-TILE_PADDING = 26
-TILE_LINE_HEIGHT = 34
+
+# Two by two, so the tiles stay readable on a phone: README shows the grid at STATS_DISPLAY_WIDTH px,
+# and at 375 px (343 px content) the 24 unit captions still render at 12 px.
+TILE_WIDTH = 328
+TILE_HEIGHT = 312
+TILE_GAP = 16
+TILE_RADIUS = 32
+TILE_PADDING = 24
+LINE_HEIGHT = 32
+COLUMNS = 2
+STATS_WIDTH = COLUMNS * TILE_WIDTH + (COLUMNS - 1) * TILE_GAP
+STATS_DISPLAY_WIDTH = STATS_WIDTH
+PHONE_CONTENT_WIDTH = 343
+
 HEADING_HEIGHT = 72
+# Widest average advance measured in the fallback fonts (Inter Medium, 0.56 of the font size),
+# plus 12 percent margin, so a line that passes here fits in every font of FONT_STACK.
+WIDTH_FACTOR = 0.56 * 1.12
+
+
+def text_width(content: str, role: str) -> float:
+    return len(content) * TYPE[role]["size"] * WIDTH_FACTOR
 
 
 def svg_document(width: int, height: int, label: str, body: str) -> str:
@@ -63,70 +115,103 @@ def svg_document(width: int, height: int, label: str, body: str) -> str:
     )
 
 
-def text(x: float, y: float, content: str, size: int, weight: int, fill: str, anchor: str = "start",
-         tracking: float = 0) -> str:
+def text(x: float, y: float, content: str, role: str, fill: str, anchor: str = "start") -> str:
+    style = TYPE[role]
     return (
-        f'<text x="{x}" y="{y}" font-family="{FONT_STACK}" font-size="{size}" font-weight="{weight}" '
-        f'fill="{fill}" text-anchor="{anchor}" letter-spacing="{tracking}">{escape(content)}</text>\n'
+        f'<text x="{x}" y="{y}" font-family="{FONT_STACK}" font-size="{style["size"]}" '
+        f'font-weight="{style["weight"]}" fill="{fill}" text-anchor="{anchor}" '
+        f'letter-spacing="{style["tracking"]}">{escape(content)}</text>\n'
     )
 
 
 def hero_svg(theme: dict) -> str:
     center = HERO_WIDTH / 2
     body = (
-        text(center, 36, HERO["eyebrow"], 24, 600, theme["accent"], "middle")
-        + text(center, 124, HERO["name"], 80, 700, theme["primary"], "middle", -2)
-        + text(center, 178, HERO["title"], 30, 500, theme["secondary"], "middle", -0.3)
+        text(center, 4.5 * GRID, HERO["eyebrow"], "label", theme["primary"], "middle")
+        + text(center, 15.5 * GRID, HERO["name"], "hero_name", theme["on_surface"], "middle")
+        + text(center, 22 * GRID, HERO["title"], "title", theme["on_surface_variant"], "middle")
     )
     label = f'{HERO["name"]}, {HERO["title"]}. {HERO["eyebrow"]}.'
     return svg_document(HERO_WIDTH, HERO_HEIGHT, label, body)
 
 
-def stats_svg(theme: dict) -> str:
-    width = len(STAT_TILES) * TILE_WIDTH + (len(STAT_TILES) - 1) * TILE_GAP
-    # A translucent accent wash instead of a solid fill, so the tiles take on the page colour behind them.
-    body = (
-        '<defs><linearGradient id="tile-wash" x1="0" y1="0" x2="1" y2="1">'
-        f'<stop offset="0" stop-color="{theme["accent"]}" stop-opacity="0.12"/>'
-        f'<stop offset="1" stop-color="{theme["accent"]}" stop-opacity="0.02"/>'
-        "</linearGradient></defs>\n"
-    )
+def stats_svg(theme_name: str, theme: dict) -> str:
+    rows = (len(STAT_TILES) + COLUMNS - 1) // COLUMNS
+    height = rows * TILE_HEIGHT + (rows - 1) * TILE_GAP
+    opacity = CONTAINER_OPACITY_DARK if theme_name == "dark" else 1
+    body = ""
     for index, tile in enumerate(STAT_TILES):
-        left = index * (TILE_WIDTH + TILE_GAP)
+        left = (index % COLUMNS) * (TILE_WIDTH + TILE_GAP)
+        top = (index // COLUMNS) * (TILE_HEIGHT + TILE_GAP)
         body += (
-            f'<rect x="{left + TILE_STROKE / 2}" y="{TILE_STROKE / 2}" width="{TILE_WIDTH - TILE_STROKE}" '
-            f'height="{TILE_HEIGHT - TILE_STROKE}" rx="{TILE_RADIUS}" fill="url(#tile-wash)" '
-            f'stroke="{theme["primary"]}" stroke-opacity="0.1" stroke-width="{TILE_STROKE}"/>\n'
+            f'<rect x="{left}" y="{top}" width="{TILE_WIDTH}" height="{TILE_HEIGHT}" rx="{TILE_RADIUS}" '
+            f'fill="{theme["container"]}" fill-opacity="{opacity}"/>\n'
         )
         x = left + TILE_PADDING
-        for line_index, line in enumerate(tile["eyebrow"]):
-            body += text(x, 52 + line_index * TILE_LINE_HEIGHT, line, 28, 600, theme["accent"])
-        body += text(x, 196, tile["figure"], 96, 700, theme["primary"], tracking=-2.5)
+        body += text(x, top + 7 * GRID, tile["eyebrow"], "label", theme["primary"])
+        body += text(x, top + 19 * GRID, tile["figure"], "display", theme["on_surface"])
         for line_index, line in enumerate(tile["caption"]):
-            body += text(x, 248 + line_index * TILE_LINE_HEIGHT, line, 28, 500, theme["secondary"], tracking=-0.2)
-    label = " ".join(f'{tile["figure"]}: {" ".join(tile["caption"])}' for tile in STAT_TILES)
-    return svg_document(width, TILE_HEIGHT, label, body)
+            body += text(x, top + 25 * GRID + line_index * LINE_HEIGHT, line, "body", theme["on_surface_variant"])
+    label = " ".join(tile["alt"] for tile in STAT_TILES)
+    return svg_document(STATS_WIDTH, height, label, body)
 
 
-def heading_svg(theme: dict, lead: str, rest: str, width: int) -> str:
-    size = 44
+def heading_svg(theme: dict, lead: str, rest: str) -> str:
+    style = TYPE["headline"]
+    width = int(text_width(f"{lead} {rest}", "headline")) // GRID * GRID + GRID
     body = (
-        f'<text x="0" y="54" font-family="{FONT_STACK}" font-size="{size}" font-weight="700" '
-        f'letter-spacing="-1">'
-        f'<tspan fill="{theme["primary"]}">{escape(lead)}</tspan>'
-        f'<tspan fill="{theme["secondary"]}"> {escape(rest)}</tspan></text>\n'
+        f'<text x="0" y="54" font-family="{FONT_STACK}" font-size="{style["size"]}" '
+        f'font-weight="{style["weight"]}" letter-spacing="{style["tracking"]}">'
+        f'<tspan fill="{theme["on_surface"]}">{escape(lead)}</tspan>'
+        f'<tspan fill="{theme["on_surface_variant"]}"> {escape(rest)}</tspan></text>\n'
     )
     return svg_document(width, HEADING_HEIGHT, f"{lead} {rest}", body)
 
 
+def luminance(hex_colour: str) -> float:
+    channels = [int(hex_colour[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+    linear = [c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
+    return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+
+def blend(top: str, bottom: str, opacity: float) -> str:
+    mixed = [
+        round(int(top[i:i + 2], 16) * opacity + int(bottom[i:i + 2], 16) * (1 - opacity)) for i in (1, 3, 5)
+    ]
+    return "#" + "".join(f"{c:02x}" for c in mixed)
+
+
+def contrast(a: str, b: str) -> float:
+    high, low = sorted((luminance(a), luminance(b)), reverse=True)
+    return (high + 0.05) / (low + 0.05)
+
+
+def check_contrast() -> None:
+    """Fails the build if a text role drops under WCAG AA (4.5:1) on its background."""
+    for name, theme in THEMES.items():
+        opacity = CONTAINER_OPACITY_DARK if name == "dark" else 1
+        tile = blend(theme["container"], theme["page"], opacity)
+        for background_name, background in (("page", theme["page"]), ("tile", tile)):
+            for role in ("primary", "on_surface", "on_surface_variant"):
+                ratio = contrast(theme[role], background)
+                assert ratio >= 4.5, f"{name} {role} on {background_name}: {ratio:.2f}"
+    # Captions are the smallest text: they must stay at 12 px or more on a phone.
+    smallest = min(TYPE["body"]["size"], TYPE["label"]["size"]) * PHONE_CONTENT_WIDTH / STATS_DISPLAY_WIDTH
+    assert smallest >= 12, f"stat caption renders at {smallest:.1f} px on a phone"
+    for tile in STAT_TILES:
+        for line in [tile["eyebrow"], *tile["caption"]]:
+            assert text_width(line, "body") <= TILE_WIDTH - 2 * TILE_PADDING, f"too wide: {line}"
+
+
 def main() -> None:
+    check_contrast()
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for theme_name, theme in THEMES.items():
         (OUTPUT_DIR / f"hero-{theme_name}.svg").write_text(hero_svg(theme), encoding="utf-8")
-        (OUTPUT_DIR / f"stats-{theme_name}.svg").write_text(stats_svg(theme), encoding="utf-8")
-        for key, (lead, rest, width) in SECTION_HEADINGS.items():
+        (OUTPUT_DIR / f"stats-{theme_name}.svg").write_text(stats_svg(theme_name, theme), encoding="utf-8")
+        for key, (lead, rest) in SECTION_HEADINGS.items():
             (OUTPUT_DIR / f"heading-{key}-{theme_name}.svg").write_text(
-                heading_svg(theme, lead, rest, width), encoding="utf-8"
+                heading_svg(theme, lead, rest), encoding="utf-8"
             )
 
 

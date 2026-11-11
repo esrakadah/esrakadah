@@ -30,7 +30,7 @@
   <a href="https://esratech.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/apple/stats-dark.svg" />
-      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 29 Flutter Community AI Circle episodes, co-founded and co-hosted. Number 1 Amazon Best Seller at launch for my Packt book, 2024. 20+ talks and workshops since 2022." width="100%" />
+      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 20+ talks and workshops since 2022. Co-author of Flutter Design Patterns and Best Practices, Packt 2024. Co-host of the Flutter Community AI Circle stream since May 2025." width="672" />
     </picture>
   </a>
 </p>
@@ -39,21 +39,18 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-now-dark.svg" />
-  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="250" />
+  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="332" />
 </picture>
 
-| When | Where | What I'm doing |
-|---|---|---|
-| **14 Nov** | 🇩🇪 [DevFest Berlin](https://2026.devfest-berlin.de) | 🎤 "Dressing Up AI" + ☕ Vibe Lounge |
-| **15 Nov** | 🇹🇷 DevFest Gaziantep | 🛠️ Flutter + Gemini workshop, in Turkish |
-| **29 Nov** | 🇹🇷 DevFest Eskişehir | 🎤 Flutter talk, in Turkish |
-| **11 Dec** | 🇹🇷 DevFest Adana | 🎤 AI-Powered Applications with Flutter |
+- **Sat 14 Nov** · [DevFest Berlin](https://2026.devfest-berlin.de), Germany<br />🎤 My talk "Dressing Up AI", then the Vibe Lounge: come build an app with Gemini ☕
+- **Sun 15 Nov** · DevFest Gaziantep, Türkiye<br />🛠️ Flutter + Gemini workshop, in Turkish
+- **Fri 11 Dec** · DevFest Adana, Türkiye<br />🎤 AI-Powered Applications with Flutter
 
 <br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-work-dark.svg" />
-  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="370" />
+  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="472" />
 </picture>
 
 <p align="center">
@@ -64,14 +61,14 @@
 
 - ☕ [**Backyard Barista**](https://backyard-barista-389486729482.europe-west3.run.app) · a two-player café game in Flutter on Cloud Run. Gemini judges every order and catches the salt you sneak into a sweet latte 🙈 [Code&nbsp;›](https://github.com/esrakadah/devfest-2026-backyard-barista-cloudrun)
 - 🤖 [**Genkit + MCP agent**](https://dev.to/gde/human-in-the-loop-agents-in-pure-dart-genkit-mcp-and-an-approval-gate-on-cloud-run-4gmc) · pure Dart, and paid orders wait until a person says yes. I hit a bug on the way and [fixed it upstream](https://github.com/genkit-ai/genkit-dart/pull/658) 💪
-- 🎬 **SoundStage** · six takes of one song, lined up by a Dart FFT in 1.6 seconds on an iPhone 🔥
-- 👗 [**modemoiselle**](https://modemoiselle.web.app) · my wardrobe app with Flutter and Gemini, live with 841 tests
+- 🎬 **SoundStage** · six takes of one song, lined up by a Dart FFT right on the iPhone 🔥
+- 👗 [**modemoiselle**](https://modemoiselle.web.app) · my wardrobe app, Flutter and Gemini, live on the web
 - 📄 **Document Processor** at Antigua · Gemini on Vertex AI reads German property PDFs and flags a risk only when it can quote the document
-- ⚡️ **EV charging app** at chargecloud · one Flutter app for 100+ white-label brands, plus CompanyOS, our shared docs and Claude Code tooling
-- 📘 [**Flutter Design Patterns and Best Practices**](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices) · the Packt book I co-wrote with [Daria Orlova](https://github.com/dariadroid) and [Jaime Blasco](https://github.com/jamesblasco). Navigation and testing are my chapters 🤓
+- ⚡️ **EV charging app** · one Flutter codebase that ships as many white-label brands
+- 📘 [**Flutter Design Patterns and Best Practices**](https://github.com/PacktPublishing/Flutter-Design-Patterns-and-Best-Practices) · the Packt book I co-wrote with [Daria Orlova](https://github.com/dariadroid) and [Jaime Blasco](https://github.com/jamesblasco), out since 2024 🤓
 
 <details>
-<summary>📦 <b>Open source</b></summary>
+<summary><b>Open source</b></summary>
 <br />
 
 - 🎙️ [**flutter_voice_bridge**](https://github.com/esrakadah/flutter_voice_bridge) · Flutter below the widget layer: platform channels, a C++ FFI wrapper around whisper.cpp, offline transcription on an isolate
@@ -88,7 +85,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-stage-dark.svg" />
-  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="340" />
+  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="416" />
 </picture>
 
 <p align="center">
@@ -103,12 +100,12 @@
 - 🎤 **The Flutter Way: FFI, Pigeon & On-Device AI** · DevFest Istanbul, Edirne and Konya, 2025
 
 <details>
-<summary>🎤 <b>All talks, workshops and sessions</b></summary>
+<summary><b>All talks, workshops and sessions</b></summary>
 <br />
 
 - 🎤 **Flutter at Native Speed: The FFI and Platform Channels Way** · DevFest Berlin 2024 and 2025, DevFest Kocaeli 2025, Flutter Heroes 2024 (Turin), GDG Berlin
 - 📺 [**Flutter Vibes Only**](https://www.youtube.com/watch?v=GiqqJdZaqPk) · vibe-coding workshop with Ivanna Kaceviča, FlutterCon EU 2025 and Flutter & Friends 2025
-- 🌸 [**Flutter Vibes Only for Groundbreaker Talents**](https://www.linkedin.com/posts/be-a-groundbreaker_flutter-womenintech-aiintech-activity-7402633497124745216-3TWD) · mentoring 40+ scholarship recipients, online, Dec 2025
+- 🌸 [**Flutter Vibes Only for Groundbreaker Talents**](https://www.linkedin.com/posts/be-a-groundbreaker_flutter-womenintech-aiintech-activity-7402633497124745216-3TWD) · mentoring scholarship recipients, online, Dec 2025
 - 🎤 **AI in Flutter Development: What's Actually Useful?** · roundtable, next.app devCon / FlutterCon EU 2025, Berlin
 - 🛠️ **Bridging the Gap: Extending Flutter Beyond Its Limits** · workshop with Simon Auer, WeAreDevelopers World Congress 2025, Berlin
 - 📺 [**From Touch To Code: Gestures and Beyond**](https://www.youtube.com/watch?v=_wDFAA1Pl80) · Flutter Connection 2024 (Paris), Flutter Berlin meetup, FlutterCon EU 2024
@@ -132,7 +129,7 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-writing-dark.svg" />
-  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="325" />
+  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="444" />
 </picture>
 
 <p align="center">
@@ -149,7 +146,7 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-community-dark.svg" />
-  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="325" />
+  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="388" />
 </picture>
 
 <p align="center">
@@ -157,12 +154,12 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
   <a href="https://www.meetup.com/de-de/flutter-berlin/"><img src="assets/apple/card-flutter-berlin.webp" alt="Flutter Berlin meetup banner with Dash" width="40%" /></a>
 </p>
 
-- 🤖 [**Flutter Community AI Circle**](https://esratech.com/flutter-community-ai-circle-fcaic/) · I co-founded it and co-host it. Flutter, Dart and AI, live since May 2025 · [YouTube&nbsp;›](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)
+- 🤖 [**Flutter Community AI Circle**](https://esratech.com/flutter-community-ai-circle-fcaic/) · I co-organize and co-host it. Flutter, Dart and AI, live since May 2025 · [YouTube&nbsp;›](https://www.youtube.com/playlist?list=PL4dBIh1xps-HIYvaEIbLWHZqt_WGBfpx3)
 - 🌸 [**Flutteristas**](https://flutteristas.org/) · co-organizer, for women and non-binary people in Flutter
 - 💙 [**Flutter Berlin**](https://www.meetup.com/de-de/flutter-berlin/) · co-organizer
 - 🥳 [**DevFest Berlin**](https://2026.devfest-berlin.de) · co-organizer and website contributor
-- ☁️ [**GDG Cloud Berlin**](https://gdg.community.dev/gdg-cloud-berlin/) · co-lead
-- 🇹🇷 [**GDG Cloud Istanbul**](https://gdg.community.dev/gdg-cloud-istanbul/) · co-organizer, 2020 to 2023
+- ☁️ [**GDG Cloud Berlin**](https://gdg.community.dev/gdg-cloud-berlin/) · co-organizer
+- 🇹🇷 [**GDG Cloud Istanbul**](https://gdg.community.dev/gdg-cloud-istanbul/) · co-organizer before my move to Berlin
 
 ✨ Google for Developers featured me: [my community story&nbsp;›](https://developers.google.com/community/stories/story-d0e9a388)&emsp;[Developers Blog, 2022&nbsp;›](https://developers.googleblog.com/en/celebrating-global-women-in-tech-and-trailblazers/)
 
