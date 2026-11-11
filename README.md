@@ -29,8 +29,10 @@
 <p align="center">
   <a href="https://esratech.com">
     <picture>
+      <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/stats-compact-dark.svg" />
+      <source media="(max-width: 767px)" srcset="assets/apple/stats-compact-light.svg" />
       <source media="(prefers-color-scheme: dark)" srcset="assets/apple/stats-dark.svg" />
-      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 20+ talks and workshops since 2022. Co-author of Flutter Design Patterns and Best Practices, Packt 2024. Co-host of the Flutter Community AI Circle stream since May 2025." width="672" />
+      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 20+ talks and workshops since 2022. Co-author of Flutter Design Patterns and Best Practices, Packt 2024. Co-host of the Flutter Community AI Circle stream since May 2025." width="100%" />
     </picture>
   </a>
 </p>
@@ -38,8 +40,10 @@
 <br />
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/heading-now-compact-dark.svg" />
+  <source media="(max-width: 767px)" srcset="assets/apple/heading-now-compact-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-now-dark.svg" />
-  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="332" />
+  <img src="assets/apple/heading-now-light.svg" alt="Now. Where I'll be next." width="100%" />
 </picture>
 
 - **Sat 14 Nov** · [DevFest Berlin](https://2026.devfest-berlin.de), Germany<br />🎤 My talk "Dressing Up AI", then the Vibe Lounge: come build an app with Gemini ☕
@@ -49,8 +53,10 @@
 <br />
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/heading-work-compact-dark.svg" />
+  <source media="(max-width: 767px)" srcset="assets/apple/heading-work-compact-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-work-dark.svg" />
-  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="472" />
+  <img src="assets/apple/heading-work-light.svg" alt="Work. Flutter and Gemini, shipped." width="100%" />
 </picture>
 
 <p align="center">
@@ -84,8 +90,10 @@
 <br />
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/heading-stage-compact-dark.svg" />
+  <source media="(max-width: 767px)" srcset="assets/apple/heading-stage-compact-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-stage-dark.svg" />
-  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="416" />
+  <img src="assets/apple/heading-stage-light.svg" alt="On stage. Talks and workshops." width="100%" />
 </picture>
 
 <p align="center">
@@ -128,8 +136,10 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 <br />
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/heading-writing-compact-dark.svg" />
+  <source media="(max-width: 767px)" srcset="assets/apple/heading-writing-compact-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-writing-dark.svg" />
-  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="444" />
+  <img src="assets/apple/heading-writing-light.svg" alt="Writing. Notes from building it." width="100%" />
 </picture>
 
 <p align="center">
@@ -145,8 +155,10 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 <br />
 
 <picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/heading-community-compact-dark.svg" />
+  <source media="(max-width: 767px)" srcset="assets/apple/heading-community-compact-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/apple/heading-community-dark.svg" />
-  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="388" />
+  <img src="assets/apple/heading-community-light.svg" alt="Community. Where I organize." width="100%" />
 </picture>
 
 <p align="center">

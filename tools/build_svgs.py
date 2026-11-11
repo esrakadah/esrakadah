@@ -84,20 +84,33 @@ SECTION_HEADINGS = {
 HERO_WIDTH = 600
 HERO_HEIGHT = 200
 
-# Two by two, so the tiles stay readable on a phone: README shows the grid at STATS_DISPLAY_WIDTH px,
-# and at 375 px (343 px content) the 24 unit captions still render at 12 px.
+# Every wide visual has two layouts. README serves them through <picture> with a width media query:
+# "compact" up to COMPACT_BREAKPOINT px of viewport, "wide" above it. Both are shown at width="100%",
+# because GitHub gives an <img> inside <picture> no max-width, so a fixed pixel width would overflow a phone.
+COMPACT_BREAKPOINT = 767
+PHONE_CONTENT_WIDTH = 343  # 375 px viewport minus GitHub's 16 px gutters
+SMALL_DESKTOP_CONTENT_WIDTH = 736  # 768 px viewport, the narrowest "wide" layout
+
 TILE_WIDTH = 328
 TILE_HEIGHT = 312
 TILE_GAP = 16
 TILE_RADIUS = 32
 TILE_PADDING = 24
 LINE_HEIGHT = 32
-COLUMNS = 2
-STATS_WIDTH = COLUMNS * TILE_WIDTH + (COLUMNS - 1) * TILE_GAP
-STATS_DISPLAY_WIDTH = STATS_WIDTH
-PHONE_CONTENT_WIDTH = 343
+STATS_COLUMNS = {"wide": 4, "compact": 2}
 
-HEADING_HEIGHT = 72
+
+def stats_width(layout: str) -> int:
+    columns = STATS_COLUMNS[layout]
+    return columns * TILE_WIDTH + (columns - 1) * TILE_GAP
+
+
+# Headings: one line on a wide canvas, so every heading shares one scale; two lines on a phone.
+HEADING_WIDE_CANVAS = 1800
+HEADING_WIDE_HEIGHT = 72
+HEADING_COMPACT_CANVAS = 640
+HEADING_COMPACT_HEIGHT = 112
+
 # Widest average advance measured in the fallback fonts (Inter Medium, 0.56 of the font size),
 # plus 12 percent margin, so a line that passes here fits in every font of FONT_STACK.
 WIDTH_FACTOR = 0.56 * 1.12
@@ -135,14 +148,15 @@ def hero_svg(theme: dict) -> str:
     return svg_document(HERO_WIDTH, HERO_HEIGHT, label, body)
 
 
-def stats_svg(theme_name: str, theme: dict) -> str:
-    rows = (len(STAT_TILES) + COLUMNS - 1) // COLUMNS
+def stats_svg(theme_name: str, theme: dict, layout: str) -> str:
+    columns = STATS_COLUMNS[layout]
+    rows = (len(STAT_TILES) + columns - 1) // columns
     height = rows * TILE_HEIGHT + (rows - 1) * TILE_GAP
     opacity = CONTAINER_OPACITY_DARK if theme_name == "dark" else 1
     body = ""
     for index, tile in enumerate(STAT_TILES):
-        left = (index % COLUMNS) * (TILE_WIDTH + TILE_GAP)
-        top = (index // COLUMNS) * (TILE_HEIGHT + TILE_GAP)
+        left = (index % columns) * (TILE_WIDTH + TILE_GAP)
+        top = (index // columns) * (TILE_HEIGHT + TILE_GAP)
         body += (
             f'<rect x="{left}" y="{top}" width="{TILE_WIDTH}" height="{TILE_HEIGHT}" rx="{TILE_RADIUS}" '
             f'fill="{theme["container"]}" fill-opacity="{opacity}"/>\n'
@@ -153,19 +167,23 @@ def stats_svg(theme_name: str, theme: dict) -> str:
         for line_index, line in enumerate(tile["caption"]):
             body += text(x, top + 25 * GRID + line_index * LINE_HEIGHT, line, "body", theme["on_surface_variant"])
     label = " ".join(tile["alt"] for tile in STAT_TILES)
-    return svg_document(STATS_WIDTH, height, label, body)
+    return svg_document(stats_width(layout), height, label, body)
 
 
-def heading_svg(theme: dict, lead: str, rest: str) -> str:
-    style = TYPE["headline"]
-    width = int(text_width(f"{lead} {rest}", "headline")) // GRID * GRID + GRID
-    body = (
-        f'<text x="0" y="54" font-family="{FONT_STACK}" font-size="{style["size"]}" '
-        f'font-weight="{style["weight"]}" letter-spacing="{style["tracking"]}">'
-        f'<tspan fill="{theme["on_surface"]}">{escape(lead)}</tspan>'
-        f'<tspan fill="{theme["on_surface_variant"]}"> {escape(rest)}</tspan></text>\n'
+def heading_svg(theme: dict, lead: str, rest: str, layout: str) -> str:
+    if layout == "wide":
+        style = TYPE["headline"]
+        body = (
+            f'<text x="0" y="54" font-family="{FONT_STACK}" font-size="{style["size"]}" '
+            f'font-weight="{style["weight"]}" letter-spacing="{style["tracking"]}">'
+            f'<tspan fill="{theme["on_surface"]}">{escape(lead)}</tspan>'
+            f'<tspan fill="{theme["on_surface_variant"]}"> {escape(rest)}</tspan></text>\n'
+        )
+        return svg_document(HEADING_WIDE_CANVAS, HEADING_WIDE_HEIGHT, f"{lead} {rest}", body)
+    body = text(0, 6.5 * GRID, lead, "headline", theme["on_surface"]) + text(
+        0, 12 * GRID, rest, "title", theme["on_surface_variant"]
     )
-    return svg_document(width, HEADING_HEIGHT, f"{lead} {rest}", body)
+    return svg_document(HEADING_COMPACT_CANVAS, HEADING_COMPACT_HEIGHT, f"{lead} {rest}", body)
 
 
 def luminance(hex_colour: str) -> float:
@@ -195,12 +213,20 @@ def check_contrast() -> None:
             for role in ("primary", "on_surface", "on_surface_variant"):
                 ratio = contrast(theme[role], background)
                 assert ratio >= 4.5, f"{name} {role} on {background_name}: {ratio:.2f}"
-    # Captions are the smallest text: they must stay at 12 px or more on a phone.
-    smallest = min(TYPE["body"]["size"], TYPE["label"]["size"]) * PHONE_CONTENT_WIDTH / STATS_DISPLAY_WIDTH
-    assert smallest >= 12, f"stat caption renders at {smallest:.1f} px on a phone"
+    # The smallest text must render at 12 px or more at the narrowest width of each layout.
+    smallest = min(TYPE["body"]["size"], TYPE["label"]["size"])
+    for layout, content_width in (("compact", PHONE_CONTENT_WIDTH), ("wide", SMALL_DESKTOP_CONTENT_WIDTH)):
+        rendered = smallest * content_width / stats_width(layout)
+        assert rendered >= 12, f"{layout} stat caption renders at {rendered:.1f} px"
+    rendered = TYPE["title"]["size"] * PHONE_CONTENT_WIDTH / HEADING_COMPACT_CANVAS
+    assert rendered >= 12, f"compact heading subtitle renders at {rendered:.1f} px"
     for tile in STAT_TILES:
         for line in [tile["eyebrow"], *tile["caption"]]:
             assert text_width(line, "body") <= TILE_WIDTH - 2 * TILE_PADDING, f"too wide: {line}"
+    for lead, rest in SECTION_HEADINGS.values():
+        assert text_width(f"{lead} {rest}", "headline") <= HEADING_WIDE_CANVAS, f"too wide: {lead}"
+        assert text_width(lead, "headline") <= HEADING_COMPACT_CANVAS, f"too wide: {lead}"
+        assert text_width(rest, "title") <= HEADING_COMPACT_CANVAS, f"too wide: {rest}"
 
 
 def main() -> None:
@@ -208,11 +234,15 @@ def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     for theme_name, theme in THEMES.items():
         (OUTPUT_DIR / f"hero-{theme_name}.svg").write_text(hero_svg(theme), encoding="utf-8")
-        (OUTPUT_DIR / f"stats-{theme_name}.svg").write_text(stats_svg(theme_name, theme), encoding="utf-8")
-        for key, (lead, rest) in SECTION_HEADINGS.items():
-            (OUTPUT_DIR / f"heading-{key}-{theme_name}.svg").write_text(
-                heading_svg(theme, lead, rest), encoding="utf-8"
+        for layout in ("wide", "compact"):
+            suffix = "" if layout == "wide" else "-compact"
+            (OUTPUT_DIR / f"stats{suffix}-{theme_name}.svg").write_text(
+                stats_svg(theme_name, theme, layout), encoding="utf-8"
             )
+            for key, (lead, rest) in SECTION_HEADINGS.items():
+                (OUTPUT_DIR / f"heading-{key}{suffix}-{theme_name}.svg").write_text(
+                    heading_svg(theme, lead, rest, layout), encoding="utf-8"
+                )
 
 
 if __name__ == "__main__":
