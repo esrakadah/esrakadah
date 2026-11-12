@@ -170,7 +170,7 @@ Abstracts and the talks I offer: [Sessionize&nbsp;›](https://sessionize.com/es
 - 🌸 [**Flutteristas**](https://flutteristas.org/) · co-organizer, for women and non-binary people in Flutter
 - 💙 [**Flutter Berlin**](https://www.meetup.com/de-de/flutter-berlin/) · co-organizer
 - 🥳 [**DevFest Berlin**](https://2026.devfest-berlin.de) · co-organizer and website contributor
-- ☁️ [**GDG Cloud Berlin**](https://gdg.community.dev/gdg-cloud-berlin/) · co-organizer
+- ☁️ [**GDG Cloud Berlin**](https://gdg.community.dev/gdg-cloud-berlin/) · co-lead
 - 🇹🇷 [**GDG Cloud Istanbul**](https://gdg.community.dev/gdg-cloud-istanbul/) · former co-organizer
 
 ✨ Google for Developers featured me: [my community story&nbsp;›](https://developers.google.com/community/stories/story-d0e9a388)&emsp;[Developers Blog, 2022&nbsp;›](https://developers.googleblog.com/en/celebrating-global-women-in-tech-and-trailblazers/)
