@@ -49,7 +49,7 @@
 - **Sat 14 Nov** · [DevFest Berlin](https://2026.devfest-berlin.de), Germany<br />🎤 My talk "Dressing Up AI", then the Vibe Lounge: come build an app with Gemini
 - **Sun 15 Nov** · DevFest Gaziantep, Türkiye<br />🛠️ Flutter + Gemini workshop, in Turkish
 - **Sat 21 Nov** · DevFest Konya, Türkiye<br />🎤 Backyard Barista on Cloud Run
-- **Sun 29 Nov** · DevFest Eskişehir, Türkiye<br />🎤 Backyard Barista on Cloud Run: a multiplayer AI café game, live
+- **Sun 29 Nov** · DevFest Eskişehir, Türkiye<br />🎤 Backyard Barista on Cloud Run
 - **Fri 11 Dec** · DevFest Adana, Türkiye<br />🎤 AI-Powered Applications with Flutter
 
 <br />
