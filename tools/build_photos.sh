@@ -23,7 +23,7 @@ rounded_square() {
     -alpha set -compose DstIn -composite "$target"
 }
 
-rounded_square "$repo_dir/assets/esra-kadah-headshot-2025.webp" "$work_dir/portrait.png" \
+rounded_square "$repo_dir/assets/esra-kadah-headshot-neon.webp" "$work_dir/portrait.png" \
   $((portrait_size / 2)) "$portrait_size"
 cwebp -quiet -q 86 -alpha_q 100 "$work_dir/portrait.png" -o "$output_dir/portrait.webp"
 
