@@ -67,8 +67,8 @@ STAT_TILES = [
      "alt": "20+ talks and workshops since 2022."},
     {"eyebrow": "Packt book, 2024", "figure": "Book", "caption": ["Co-author, Flutter", "Design Patterns", "and Best Practices"],
      "alt": "Book: co-author of Flutter Design Patterns and Best Practices, Packt 2024."},
-    {"eyebrow": "Since May 2025", "figure": "Live", "caption": ["Co-host, Flutter", "Community AI", "Circle stream"],
-     "alt": "Live: co-host of the Flutter Community AI Circle stream since May 2025."},
+    {"eyebrow": "Since May 2025", "figure": "29", "caption": ["Episodes, Flutter", "Community AI", "Circle stream"],
+     "alt": "29 episodes of the Flutter Community AI Circle stream, which I co-host, live since May 2025."},
 ]
 
 SECTION_HEADINGS = {

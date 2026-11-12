@@ -32,7 +32,7 @@
       <source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="assets/apple/stats-compact-dark.svg" />
       <source media="(max-width: 767px)" srcset="assets/apple/stats-compact-light.svg" />
       <source media="(prefers-color-scheme: dark)" srcset="assets/apple/stats-dark.svg" />
-      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 20+ talks and workshops since 2022. Co-author of Flutter Design Patterns and Best Practices, Packt 2024. Co-host of the Flutter Community AI Circle stream since May 2025." width="100%" />
+      <img src="assets/apple/stats-light.svg" alt="GDE: Google Developer Expert for Flutter and Dart. 20+ talks and workshops since 2022. Co-author of Flutter Design Patterns and Best Practices, Packt 2024. 29 episodes of the Flutter Community AI Circle stream, which I co-host, live since May 2025." width="100%" />
     </picture>
   </a>
 </p>
@@ -48,6 +48,8 @@
 
 - **Sat 14 Nov** · [DevFest Berlin](https://2026.devfest-berlin.de), Germany<br />🎤 My talk "Dressing Up AI", then the Vibe Lounge: come build an app with Gemini
 - **Sun 15 Nov** · DevFest Gaziantep, Türkiye<br />🛠️ Flutter + Gemini workshop, in Turkish
+- **Sat 21 Nov** · DevFest Konya, Türkiye<br />🎤 Backyard Barista on Cloud Run
+- **Sun 29 Nov** · DevFest Eskişehir, Türkiye<br />🎤 Backyard Barista on Cloud Run: a multiplayer AI café game, live
 - **Fri 11 Dec** · DevFest Adana, Türkiye<br />🎤 AI-Powered Applications with Flutter
 
 <br />
